@@ -37,17 +37,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
-	'ANNOUNCEMENTS'			=> 'Announcements',
+	'ACTIVE_TOPICS'			=> '활성화 주제',
+	'ANNOUNCEMENTS'			=> '공지사항',
 
-	'FORUM_PERMISSIONS'		=> 'Forum permissions',
+	'FORUM_PERMISSIONS'		=> '포럼 권한',
 
-	'ICON_ANNOUNCEMENT'		=> 'Announcement',
-	'ICON_STICKY'			=> 'Sticky',
+	'ICON_ANNOUNCEMENT'		=> '공지',
+	'ICON_STICKY'			=> '붙박이',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
+	'LOGIN_NOTIFY_FORUM'	=> '이것을 보려면 로그인해주셔야합니다. 포럼에 공지되어있습니다.',
 
-	'MARK_TOPICS_READ'		=> 'Mark topics read',
+	'MARK_TOPICS_READ'		=> '마크 주제 읽기',
 
 	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
 	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
