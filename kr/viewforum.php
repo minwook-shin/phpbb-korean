@@ -8,6 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
+* translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 *
 */
 
@@ -47,24 +48,24 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_NOTIFY_FORUM'	=> '이것을 보려면 로그인해주셔야합니다. 포럼에 공지되어있습니다.',
 
-	'MARK_TOPICS_READ'		=> '마크 주제 읽기',
+	'MARK_TOPICS_READ'		=> '주제 읽기 표시',
 
-	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to read topics within this forum.',
-	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
+	'NEW_POSTS_HOT'			=> '새로운 글 [ 인기있음 ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> '새로운 글 [ 잠김 ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> '새로운 글없음 [ 인기있음 ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> '새로운 글없음 [ 잠김 ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> '포럼의 이 주제를 읽기 위해 필요한 권한이 없습니다.',
+	'NO_UNREAD_POSTS_HOT'		=> '읽지않은 글 없음 [ 인기있음 ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> '읽지않은 글 없음 [ 잠김 ]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> '포럼이 잠김',
 
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
+	'TOPICS_MARKED'			=> '이제 포럼의 이 주제는 읽기 표시했습니다.',
 
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
+	'UNREAD_POSTS_HOT'		=> '읽지않은 글 [ 인기있음 ]',
+	'UNREAD_POSTS_LOCKED'	=> '읽지않은 글 [ 잠김 ]',
 
-	'VIEW_FORUM'			=> 'View forum',
+	'VIEW_FORUM'			=> '포럼 보기',
 	'VIEW_FORUM_TOPICS'		=> array(
 		1	=> '%d topic',
 		2	=> '%d topics',
