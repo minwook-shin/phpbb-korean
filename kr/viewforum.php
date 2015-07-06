@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /**
 *
 * This file is part of the phpBB Forum Software package.
@@ -37,17 +37,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'È°¼ºÈ­ ÁÖÁ¦',
-	'ANNOUNCEMENTS'			=> '°øÁö»çÇ×',
+	'ACTIVE_TOPICS'			=> 'í™œì„±í™” ì£¼ì œ',
+	'ANNOUNCEMENTS'			=> 'ê³µì§€ì‚¬í•­',
 
-	'FORUM_PERMISSIONS'		=> 'Æ÷·³ ±ÇÇÑ',
+	'FORUM_PERMISSIONS'		=> 'í¬ëŸ¼ ê¶Œí•œ',
 
-	'ICON_ANNOUNCEMENT'		=> '°øÁö',
-	'ICON_STICKY'			=> 'ºÙ¹ÚÀÌ',
+	'ICON_ANNOUNCEMENT'		=> 'ê³µì§€',
+	'ICON_STICKY'			=> 'ë¶™ë°•ì´',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'ÀÌ°ÍÀ» º¸·Á¸é ·Î±×ÀÎÇØÁÖ¼Å¾ßÇÕ´Ï´Ù. Æ÷·³¿¡ °øÁöµÇ¾îÀÖ½À´Ï´Ù.',
+	'LOGIN_NOTIFY_FORUM'	=> 'ì´ê²ƒì„ ë³´ë ¤ë©´ ë¡œê·¸ì¸í•´ì£¼ì…”ì•¼í•©ë‹ˆë‹¤. í¬ëŸ¼ì— ê³µì§€ë˜ì–´ìžˆìŠµë‹ˆë‹¤.',
 
-	'MARK_TOPICS_READ'		=> '¸¶Å© ÁÖÁ¦ ÀÐ±â',
+	'MARK_TOPICS_READ'		=> 'ë§ˆí¬ ì£¼ì œ ì½ê¸°',
 
 	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
 	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
