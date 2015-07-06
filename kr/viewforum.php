@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'POST_FORUM_LOCKED'		=> '포럼이 잠김',
 
-	'TOPICS_MARKED'			=> '이제 포럼의 이 주제는 읽기 표시했습니다.',
+	'TOPICS_MARKED'			=> '이제 포럼의 이 주제를 읽기 표시했습니다.',
 
 	'UNREAD_POSTS_HOT'		=> '읽지않은 글 [ 인기있음 ]',
 	'UNREAD_POSTS_LOCKED'	=> '읽지않은 글 [ 잠김 ]',
