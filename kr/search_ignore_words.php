@@ -9,6 +9,8 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
+*The translation files are not translated because it is an exception word list.
+*본 번역 파일은 예외 단어 목록이므로 번역하지않습니다.
 *
 */
 
