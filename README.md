@@ -9,6 +9,5 @@ PHPBB3.1.x 한국어 언어 팩 / PHPBB3.1.x Korean Language Packs
 ##Use the copyrights to write the original translators.
 ###translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
-##모더레이터 제어판은 번역하지않습니다. 
-##Moderator Control Panel is not translated. 
-
+##어드민, 모더레이터 제어판은 번역하지않습니다. 
+##admin, Moderator Control Panel is not translated. 
