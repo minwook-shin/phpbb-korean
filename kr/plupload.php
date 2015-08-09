@@ -39,11 +39,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'PLUPLOAD_ADD_FILES'		=> 'Add files',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Add files to the upload queue and click the start button.',
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s already present in the queue.',
-	'PLUPLOAD_CLOSE'			=> 'Close',
-	'PLUPLOAD_DRAG'				=> 'Drag files here.',
+	'PLUPLOAD_ADD_FILES'		=> '파일추가',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> '업로드 대기열에 파일을 추가하고 시작 버튼을 클릭합니다.',
+	'PLUPLOAD_ALREADY_QUEUED'	=> '%s 대기열에 이미 존재.',
+	'PLUPLOAD_CLOSE'			=> '닫기',
+	'PLUPLOAD_DRAG'				=> '이곳으로 파일을 드래그.',
 	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Duplicate file error.',
 	'PLUPLOAD_DRAG_TEXTAREA'	=> 'You may also attach files by dragging and dropping them in the message box.',
 	'PLUPLOAD_ERR_INPUT'		=> 'Failed to open input stream.',
