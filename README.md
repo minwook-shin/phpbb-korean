@@ -1,6 +1,6 @@
 # phpbb-korean
-PHPBB3.1.x 한국어 언어 팩 / PHPBB3.1.x Korean Language Packs
-
+PHPBB3.1.x 한국어 언어 팩 / PHPBB3.1.x Korean Language Packs <br/>
+https://github.com/minwook-shin/phpbb-korean
 ##lisence
 번역자 표시하에 사용가능 but, 번역자 미표시 혹은 무단 재배포시 민사소송까지 갈 수 있습니다.<br/>
 / Use to display a translator... but Copyright undeclared can be a civil lawsuit.
@@ -10,4 +10,4 @@ Use the copyrights to write the original translators.<br/>
 translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
 ##어드민, 모더레이터 제어판은 번역하지않습니다. 
-##admin, Moderator Control Panel is not translated. 
+admin, Moderator Control Panel is not translated. 
