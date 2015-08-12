@@ -38,33 +38,33 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'The config setting "%s" unexpectedly does not exist.',
+	'CONFIG_NOT_EXIST'					=> '예기치 않게 존재하지 않는 "%s" 구성 설정 .',
 
-	'GROUP_NOT_EXIST'					=> 'The group "%s" unexpectedly does not exist.',
+	'GROUP_NOT_EXIST'					=> '예기치 않게 존재하지 않는 "%s" 그룹.',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Apply dependencies of %s.',
-	'MIGRATION_DATA_DONE'				=> 'Installed Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installing Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_RUNNING'			=> 'Installing Data: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration already effectively installed (skipped): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Something went wrong during the request and an exception was thrown. The changes made before the error occurred were reversed to the best of our abilities, but you should check the board for errors.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'The migration "%1$s" is not fulfillable, missing migration "%2$s".',
-	'MIGRATION_NOT_VALID'				=> '%s is not a valid migration.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Installed Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Installing Schema: %s.',
+	'MIGRATION_APPLY_DEPENDENCIES'		=> '%s 의 종속성을 적용.',
+	'MIGRATION_DATA_DONE'				=> '데이터가 설치됨: %1$s; 시간: %2$.2f 초',
+	'MIGRATION_DATA_IN_PROGRESS'		=> '데이터 설치중: %1$s; Time: %2$.2f 초',
+	'MIGRATION_DATA_RUNNING'			=> '데이터 설치중: %s.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> '마이그레이션은 이미 효과적으로 설치됨 (skipped): %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> '뭔가 요청 중 잘못된 예외가 발생했습니다. 변경되었던것이 오류가 났습니다, 하지만 당신은 오류에 대한 보드를 확인해야합니다.',
+	'MIGRATION_NOT_FULFILLABLE'			=> '"%1$s" 마이그레이션은 달성하지못합니다."%2$s" 없는 마이그레이션.',
+	'MIGRATION_NOT_VALID'				=> '%s 는 올바른 마이그레이션이 아닙습니다.'
+	'MIGRATION_SCHEMA_DONE'				=> '스키마 설치됨: %1$s; Time: %2$.2f 초',
+	'MIGRATION_SCHEMA_RUNNING'			=> '스키마 설치중: %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migration is invalid. An if statement helper is missing a condition.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migration is invalid. An if statement helper is missing a valid call to a migration step.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migration is invalid. A custom callable function could not be called.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migration is invalid. An unknown migration tool type was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migration is invalid. An undefined migration tool was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migration is invalid. An undefined migration tool method was encountered.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> '마이그레이션이 잘못되었습니다. An if statement helper is missing a condition.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> '마이그레이션이 잘못되었습니다. An if statement helper is missing a valid call to a migration step.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> '마이그레이션이 잘못되었습니다. 사용자 정의 호출 함수를 호출 할 수 없습니다.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> '마이그레이션이 잘못되었습니다. 알 수없는 마이그레이션 도구 유형이 발생했습니다.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구가 발생했습니다.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구 방법이 발생했습니다.',
 
-	'MODULE_ERROR'						=> 'An error occurred while creating a module: %s',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'A required module info file is missing: %2$s',
-	'MODULE_NOT_EXIST'					=> 'A required module does not exist: %s',
+	'MODULE_ERROR'						=> '모듈을 만드는 동안 오류가 발생했습니다: %s',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> '필요한 모듈 정보 파일이 없습니다: %2$s',
+	'MODULE_NOT_EXIST'					=> '필요한 모듈이 존재하지 않습니다: %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" unexpectedly does not exist.',
+	'PERMISSION_NOT_EXIST'				=> '예기치 않게 존재하지 않는 권한 설정 "%s".',
 
-	'ROLE_NOT_EXIST'					=> 'The permission role "%s" unexpectedly does not exist.',
+	'ROLE_NOT_EXIST'					=> '예기치 않게 존재하지 않는 권한 역할 "%s".',
 ));
