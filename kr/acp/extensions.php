@@ -9,9 +9,6 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
-* Admin Control Panel is not translated.
-* 어드민 제어판은 번역하지않습니다.
-*
 */
 
 if (!defined('IN_PHPBB'))
