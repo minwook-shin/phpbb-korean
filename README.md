@@ -9,11 +9,8 @@ https://github.com/minwook-shin/phpbb-korean
 Use the copyrights to write the original translators.<br/>
 translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
-##어드민, 모더레이터 제어판은 번역하지않습니다. 
-admin, Moderator Control Panel is not translated. 
-
 ##번역 예정
-1.포럼 메인 스트링 번역 [진행중] <br/>
-2.유저 컨트롤 패널 번역 [예정] <br/>
-3.이메일 양식 번역 [예정] <br/>
+1.포럼 메인 스트링 번역 [완료-검수중] <br/>
+2.이메일 양식 번역 [완료-검수중] <br/>
+3.유저 컨트롤 패널 번역 [예정] <br/>
 4.어드민, 모더레이터 제어판 번역 [고려중] <br/>
