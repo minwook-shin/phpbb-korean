@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: 그룹 가입 요청이 만들어졌습니다.
 
-Dear {USERNAME},
+{USERNAME} 님,
 
 The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+그룹 회원이 요청을 승인 또는 거부하려면 다음 링크를 참조하시기 바랍니다:
 
 {U_PENDING}
 

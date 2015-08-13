@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_SUCCESS'	=> '연결에 성공!',
 	'CONTACT'				=> '연락',
 	'CONTACT_USER'			=> '%s 에게 연락하기',
-	'CONTACT_US'			=> '저희에게 연락하기',
+	'CONTACT_US'			=> '운영진 문의하기',
 	'COOKIES_DELETED'		=> '모든 보드 쿠키가 삭제되었습니다.',
 	'CURRENT_TIME'			=> '지금 시간은 %s 입니다',
 
@@ -568,7 +568,7 @@ $lang = array_merge($lang, array(
 	'POSTS'					=> '글',
 	'POSTS_UNAPPROVED'		=> '이 항목의 하나 이상의 게시물이 승인되지 않았습니다.',
 	'POSTS_UNAPPROVED_FORUM'=> '이 포럼에서 적어도 하나의 게시물이 승인되지 않았습니다.',
-	'POST_BY_AUTHOR'		=> '으로',
+	'POST_BY_AUTHOR'		=> '글쓴이',
 	'POST_BY_FOE'			=> '<strong>%1$s</strong>, 누가 현재 무시 목록에, 이 글했다.',
 	'POST_DISPLAY'			=> '%1$s이 게시물을 표시%2$s.',
 	'POST_DAY'				=> '%.2f 하루 글',

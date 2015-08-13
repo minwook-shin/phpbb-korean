@@ -1,6 +1,8 @@
-Subject: Welcome to "{SITENAME}"
+﻿Subject: Welcome to "{SITENAME}"
 
 {WELCOME_MSG}
+
+미국 및 유렵에서의 아동 온라인 개인정보보호법(coppa)는 번역하지않습니다.
 
 In compliance with the COPPA, your account is currently inactive.
 

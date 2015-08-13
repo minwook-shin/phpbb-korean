@@ -1,18 +1,18 @@
-Subject: Forum post notification - "{FORUM_NAME}"
+Subject: 포럼 게시물 알림 - "{FORUM_NAME}"
 
-Hello {USERNAME},
+안녕하십니까 {USERNAME}님,
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new reply to the topic "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the last unread reply, no more notifications will be sent until you visit the topic.
+당신이 "{SITENAME}"의 "{FORUM_NAME}"포럼을보고 있기 때문에 이 알림을 받고 있습니다.이 포럼은 주제에 새로운 회신을 받았습니다 "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> 당신의 마지막 방문입니다.당신이 주제를 방문 할 때까지 더 이상 알림이 전송되는 '마지막 읽지 않은 응답'을 보려면 다음 링크를 사용할 수 있습니다.
 
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+당신이 항목을 보려면, 다음 링크를 클릭:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+당신이 포럼을 보려면, 다음 링크를 클릭:
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
+더 이상이 포럼을 구독하지 않으려면 아래의 링크를 클릭하여 포럼에있는 "포럼 탈퇴"링크를 클릭 할 수 있습니다:
 
 {U_STOP_WATCHING_FORUM}
 
