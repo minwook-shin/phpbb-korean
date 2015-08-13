@@ -1,7 +1,7 @@
-Subject: Your account has been deactivated
+Subject: 계정이 비활성화되었습니다
 
-Hello {USERNAME},
+안녕하십니까 {USERNAME} 님
 
-Your account on "{SITENAME}" has been deactivated, most likely due to changes made to your profile. The administrator of the board will need to activate it before you can log in. You will receive another notification when this has occurred.
+ "{SITENAME}"에 계정이 프로필의 변경때문에, 계정이 비활성화되었습니다. 당신이 로그인 하기 전에 보드의 관리자가 활성화해야합니다.
 
 {EMAIL_SIG}

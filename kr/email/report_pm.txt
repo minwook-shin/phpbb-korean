@@ -1,10 +1,10 @@
-Subject: Private Message report - "{TOPIC_TITLE}"
+Subject: 개인 메시지 보고서 - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+안녕하십니까 {USERNAME}님
 
-You are receiving this notification because a Private Message titled "{SUBJECT}" by "{AUTHOR_NAME}" at "{SITENAME}" was reported.
+"{SUBJECT}"라는 제목의 개인 메시지에 의해 "{SITENAME}"에서 "{AUTHOR_NAME}"이 보고 있기 때문에 이 알림을 받고 있습니다.
 
-If you want to view the report, click the following link:
+보고서를 보려면, 다음 링크를 클릭 :
 {U_VIEW_REPORT}
 
 {EMAIL_SIG}

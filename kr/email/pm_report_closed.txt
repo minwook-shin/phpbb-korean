@@ -1,7 +1,7 @@
-Subject: Report closed - "{PM_SUBJECT}"
+Subject: 보고서 폐쇄 - "{PM_SUBJECT}"
 
-Hello {USERNAME},
+안녕하십니까 {USERNAME} 님
 
-You are receiving this notification because the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" has been tended to by a moderator or administrator. The report is now closed. If you have further questions, please contact {CLOSER_NAME} by private message.
+보고서에서 개인 메시지 "{PM_SUBJECT}"삭제되었기 때문에 이 알림을 받고있습니다 "{SITENAME}"운영자 또는 관리자에 의해 삭제되는 경향이있습니다. 이 보고서는 현재 닫혀 있습니다. 당신이 추가 문의 사항이 있을 경우, 개인 메시지를 통해 {CLOSER_NAME}에 문의하시기 바랍니다.
 
 {EMAIL_SIG}

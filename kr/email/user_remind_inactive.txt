@@ -1,11 +1,11 @@
-Subject: Inactive account reminder
+Subject: 비활성 계정 알림
 
-Hello {USERNAME},
+안녕하십니까 {USERNAME} 님
 
-This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+이 통지는 {REGISTER_DATE}에서 만든 "{SITENAME}"의 귀하의 계정이 비활성 상태로 변경됩니다. 이 계정을 활성화하려는 경우, 다음 링크를 참조하시기 바랍니다 :
 
 {U_ACTIVATE}
 
-Thank you for registering at "{SITENAME}", we look forward to your participation.
+"{SITENAME}"에 등록 해 주셔서 감사합니다, 우리는 당신의 참여를 기대합니다.
 
 {EMAIL_SIG}

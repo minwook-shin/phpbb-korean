@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: 사용자 계정을 활성화
 
-Hello,
+안녕하십니까,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+"{USERNAME}"소유 계정이 비활성화되거나 새로 생성 됬습니다, 당신은 (필요한 경우) 이 사용자의 세부 사항을 확인하고 적절하게 처리해야합니다.
 
-Use this link to view the user's profile:
+사용자의 프로필을 보려면이 링크를 사용 :
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+계정을 활성화하려면 이 링크를 사용:
 {U_ACTIVATE}
 
 {EMAIL_SIG}
