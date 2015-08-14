@@ -1,10 +1,10 @@
-Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: 포스트 승인 - "{POST_SUBJECT을}"
 
-Hello {USERNAME},
+안녕하십니까 {USERNAME} 님,
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+"{SITENAME}" 에서 "{POST_SUBJECT}"게시물은 운영자 또는 관리자에 의해 승인했기 때문에 이 알림을 받고 있습니다.
 
-The following reason was given for the disapproval:
+다음과 같은 이유가 승인을 위해 주어졌습니다 :
 
 {REASON}
 

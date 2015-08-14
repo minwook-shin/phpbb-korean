@@ -1,19 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: 주제 답변 알림 - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+안녕하십니까 {USERNAME} 님,
 
-You are receiving this notification because "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+"{AUTHOR_NAME}"주제가 "{TOPIC_TITLE}"에서 당신의 인용 때문에 "{SITENAME}"에서 이 알림을 받고 있습니다. 당신이 만든 대답을 보려면 다음 링크를 사용할 수 있습니다.
 
-If you want to view the quoted post, click the following link:
+당신이 인용 한 게시물을 보려면, 다음 링크를 클릭 :
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+당신이 항목을 보려면, 다음 링크를 클릭 :
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+당신이 포럼을 보려면, 다음 링크를 클릭 :
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
+당신은 더 이상 인용 대답에 대한 업데이트를 수신하지 않으려면, 당신의 알림 설정을 여기에 업데이트하십시오 :
 
 {U_NOTIFICATION_SETTINGS}
 
