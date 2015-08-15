@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> '프로필',
 	'ACTIVE_IN_FORUM'		=> '대부분의 활성화 포럼',
-	'ACTIVE_IN_TOPIC'		=> '대부분의 활성화 글타래',
+	'ACTIVE_IN_TOPIC'		=> '대부분의 활동한 글타래',
 	'ADD_FOE'				=> '싫어하는 친구 추가',
 	'ADD_FRIEND'			=> '친구 추가',
 	'AFTER'					=> '후',
