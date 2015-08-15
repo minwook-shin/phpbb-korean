@@ -201,7 +201,7 @@ $lang = array_merge($lang, array(
 	'FIELD_REQUIRED'					=> '필드 "%s"를 완료해야합니다..',
 	'FIELD_TOO_SHORT'					=> array(
 		1	=> '필드가 "%2$s"는 너무 짧습니다, %1$d 개의 문자가 최소 필요합니다.',
-		2	=> 'The field “%2$s” is too short, a minimum of %1$d characters is required.',
+		2	=> '필드가 "%2$s"는 너무 짧습니다, %1$d 개의 문자들이 최소 필요합니다.',
 	),
 	'FIELD_TOO_LONG'					=> array(
 		1	=> 'The field “%2$s” is too long, a maximum of %1$d character is allowed.',
