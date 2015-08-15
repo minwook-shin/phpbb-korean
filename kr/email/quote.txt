@@ -1,8 +1,8 @@
-Subject: 주제 답변 알림 - "{TOPIC_TITLE}"
+Subject: 글타래 답변 알림 - "{TOPIC_TITLE}"
 
 안녕하십니까 {USERNAME}님
 
-"{AUTHOR_NAME}"주제 "{TOPIC_TITLE}"의 인용 때문에 "{SITENAME}"에서 이 알림을 받고 있습니다. 당신이 만든 응답을 보려면 다음 링크를 사용할 수 있습니다.
+"{AUTHOR_NAME}"글타래 "{TOPIC_TITLE}"의 인용 때문에 "{SITENAME}"에서 이 알림을 받고 있습니다. 당신이 만든 응답을 보려면 다음 링크를 사용할 수 있습니다.
 
 당신이 인용 한 게시물을 보려면, 다음 링크를 클릭 :
 {U_VIEW_POST}

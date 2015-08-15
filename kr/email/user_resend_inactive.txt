@@ -14,6 +14,6 @@ Subject: "{SITENAME}"에 오신 것을 환영합니다
 
 {U_ACTIVATE}
 
-등록 해 주셔서 감사합니다.
+가입 해 주셔서 감사합니다.
 
 {EMAIL_SIG}

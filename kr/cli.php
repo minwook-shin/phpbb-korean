@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> '(확장없이) 안전 모드에서 실행합니다.',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> '쉘을 실행합니다.',
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> '지정된 확장을 제거합니다.',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> '사용자 테이블의 user_email_hash 열을 다시 계산합니다.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> '유저 테이블의 user_email_hash 열을 다시 계산합니다.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> '이전 현재 값과 일치하는 경우에만 구성 옵션의 값을 설정합니다.',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> '구성 옵션의 값을 설정합니다',
 

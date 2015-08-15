@@ -1,4 +1,4 @@
-Subject: 주제 승인 - "{TOPIC_TITLE}"
+Subject: 글타래 승인 - "{TOPIC_TITLE}"
 
 안녕하십니까 {USERNAME}님
 
