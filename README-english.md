@@ -15,6 +15,6 @@ The first version of the language pack is 15.8 (2015.08).
 1. Main Forum strings translated [completed] <br/>
 2. The e-mail form, translated [completed] <br/>
 3. User control panel translate [completed] <br/>
-4.BBcode Help, FAQ translate [completed] <br/>
+4. BBcode Help, FAQ translate [completed] <br/>
 5. Panel Moderator translation [in progress] <br/>
 6. Admin Panel translation [in progress]
