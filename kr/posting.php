@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_LISTITEM_HELP'		=> '목록 항목: [*]text',
 	'BBCODE_O_HELP'				=> '정렬 된 목록: e.g. [list=1][*]첫 포인트[/list] 이거나 [list=a][*]포인트[/list]',
 	'BBCODE_P_HELP'				=> '이미지 삽입: [img]http://image_url[/img]',
-	'BBCODE_Q_HELP'				=> '견적 텍스트: [quote]텍스트[/quote]',
+	'BBCODE_Q_HELP'				=> '인용 텍스트: [quote]텍스트[/quote]',
 	'BBCODE_S_HELP'				=> '글꼴 색: [color=red]텍스트[/color] 이거나 [color=#FF0000]텍스트[/color]',
 	'BBCODE_U_HELP'				=> '텍스트 밑줄: [u]텍스트[/u]',
 	'BBCODE_W_HELP'				=> 'URL 삽입: [url]http://url[/url] 이거나 [url=http://url]URL 텍스트[/url]',
@@ -74,8 +74,8 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> '죄송하지만 당신은 고정 글타래를 게시 할 수 없습니다.',
 	'CHANGE_TOPIC_TO'			=> '글타래 유형 변경',
 	'CHARS_POST_CONTAINS'		=> array(
-		1	=> '귀하의 메시지는 %1$d 개의 문자가 포함되어 있습니다.',
-		2	=> '귀하의 메시지는 %1$d 개의 문자들이 포함되어 있습니다.',
+		1	=> '당신의 메시지는 %1$d 개의 문자가 포함되어 있습니다.',
+		2	=> '당신의 메시지는 %1$d 개의 문자들이 포함되어 있습니다.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
 		1	=> '당신의 서명에 %1$d 개의 문자가 포함되어 있습니다.',
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'DISALLOWED_CONTENT'		=> '업로드 된 파일이 가능한 공격 벡터로 확인 되었기 때문에 업로드가 거부되었습니다.',
 	'DISALLOWED_EXTENSION'		=> '%s 확장자는 허용되지 않습니다.',
 	'DRAFT_LOADED'				=> '게시 영역에 로드 초안, 당신은 지금 당신의 게시물을 완료 할 수 있습니다. <br />당신의 초안은 게시물을 제출 한 후 삭제됩니다. ',
-	'DRAFT_LOADED_PM'			=> '초안 메시지 영역에로드, 당신은 지금 당신의 개인적인 메시지를 완료 할 수 있습니다.<br />귀하의 초안이 개인 메시지를 제출 한 후 삭제됩니다. ',
+	'DRAFT_LOADED_PM'			=> '초안 메시지 영역에로드, 당신은 지금 당신의 개인적인 메시지를 완료 할 수 있습니다.<br />당신의 초안이 개인 메시지를 제출 한 후 삭제됩니다. ',
 	'DRAFT_SAVED'				=> '초안은 성공적으로 저장.',
 	'DRAFT_TITLE'				=> '초안 제목',
 
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 
 	'LOAD'						=> '불러오기',
 	'LOAD_DRAFT'				=> '초안 불러오기',
-	'LOAD_DRAFT_EXPLAIN'		=> '여기에 당신은 당신이 기록을 계속하려면 초안을 선택할 수 있습니다. 현재 게시물이 취소됩니다 현재의 모든 게시물의 내용이 삭제됩니다. 보기, 편집하고 유저 제어판 내에서 초안을 삭제합니다.',
+	'LOAD_DRAFT_EXPLAIN'		=> '여기에 당신은 당신이 기록을 계속하려면 초안을 선택할 수 있습니다. 현재 게시물이 취소됩니다 현재의 모든 게시물의 내용이 삭제됩니다. 보기, 편집하고 유저 컨트롤 패널 내에서 초안을 삭제합니다.',
 	'LOGIN_EXPLAIN_BUMP'		=> '이 포럼에서 글타래를 범프하기 위해서는 로그인이 필요합니다.',
 	'LOGIN_EXPLAIN_DELETE'		=> '이 포럼에서 게시물을 삭제하기 위해서는 로그인이 필요합니다.',
 	'LOGIN_EXPLAIN_POST'		=> '이 포럼에서 게시하기 위해서는 로그인이 필요합니다.',
@@ -173,7 +173,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY_REPLY'				=> '리플이 달릴 시 알림',
 	'NOT_UPLOADED'				=> '파일 업로드 할 수 없습니다.',
 	'NO_DELETE_POLL_OPTIONS'	=> '당신은 기존의 설문 조사 옵션을 삭제할 수 없습니다.',
-	'NO_PM_ICON'				=> 'PM 아이콘 없음',
+	'NO_PM_ICON'				=> '개인 메시지 아이콘 없음',
 	'NO_POLL_TITLE'				=> '당신은 설문 조사 제목을 입력해야합니다.',
 	'NO_POST'					=> '요청 된 게시물이 존재하지 않습니다.',
 	'NO_POST_MODE'				=> '게시물 모드를 지정하지않았습니다.',
@@ -221,8 +221,8 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> '진행 바',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> '당신은 서로 내에서 만 %d 견적을 포함 할 수있습니다.',
-		2	=> '당신은 서로 내에서 만 %d 견적을 포함 할 수있습니다.',
+		1	=> '당신은 서로 내에서 만 %d 인용을 포함 할 수있습니다.',
+		2	=> '당신은 서로 내에서 만 %d 인용을 포함 할 수있습니다.',
 	),
 	'QUOTE_NO_NESTING'			=> '당신은 이곳에서 따옴표를 포함하지 않을 수 있습니다.',
 
@@ -239,26 +239,26 @@ $lang = array_merge($lang, array(
 	'STICK_TOPIC_FOR_EXPLAIN'	=> '제한없는 고정/공지에는 0을 입력합니다. 이 번호는 게시물의 날짜를 기준으로 있습니다.',
 	'STYLES_TIP'				=> '팁: 스타일은 선택한 텍스트에 신속하게 적용 할 수 있습니다.',
 
-	'TOO_FEW_CHARS'				=> '귀하의 메시지가 너무 적은 문자가 포함되어 있습니다.',
+	'TOO_FEW_CHARS'				=> '당신의 메시지가 너무 적은 문자가 포함되어 있습니다.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
 		1	=> '최소한 %1$d 개의 문자를 입력해야합니다.',
 		2	=> '최소한 %1$d 개의 문자들을 입력해야합니다.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> '당신은 적어도 두 개의 설문 조사 옵션을 입력해야합니다.',
 	'TOO_MANY_ATTACHMENTS'		=> '다른 첨부 파일을 추가 할 수 없습니다, %d 는 최대입니다.',
-	'TOO_MANY_CHARS'			=> '귀하의 메시지에 너무 많은 문자가 포함되어 있습니다.',
+	'TOO_MANY_CHARS'			=> '당신의 메시지에 너무 많은 문자가 포함되어 있습니다.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		2	=> '허용 된 최대 문자 수는 %1$d 입니다.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> '당신은 너무 많은 설문 조사 옵션을 입력하는 것을 시도했습니다.',
-	'TOO_MANY_SMILIES'			=> '귀하의 메시지가 너무 많은 이모티콘이 포함되어 있습니다. 허용 이모티콘의 최대 개수는 %d 입니다.',
-	'TOO_MANY_URLS'				=> '귀하의 메시지가 너무 많은 URL을 포함하고 있습니다. 허용 된 URL의 최대 개수는 %d 입니다.',
+	'TOO_MANY_SMILIES'			=> '당신의 메시지가 너무 많은 이모티콘이 포함되어 있습니다. 허용 이모티콘의 최대 개수는 %d 입니다.',
+	'TOO_MANY_URLS'				=> '당신의 메시지가 너무 많은 URL을 포함하고 있습니다. 허용 된 URL의 최대 개수는 %d 입니다.',
 	'TOO_MANY_USER_OPTIONS'		=> '당신은 기존의 설문 조사 옵션보다 유저 당 더 많은 옵션을 지정할 수 없습니다.',
 	'TOPIC_BUMPED'				=> '글타래는 성공적으로 충돌하고있다.',
 
 	'UNAUTHORISED_BBCODE'		=> '당신은 어떤 BBCodes을 사용할 수 없습니다: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> '일반적인 글타래에 전체 공지되는 것을 다시 이 글타래를 전환하려면, 당신은 당신이 이 항목은 표시하고자하는 포럼을 선택해야합니다.',
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> '귀하의 메시지는 다음과 지원되지 않는 문자가 포함:<br />%s',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> '당신의 메시지는 다음과 지원되지 않는 문자가 포함:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> '당신의 글타래는 다음과 같은 지원되지 않는 문자가 포함:<br />%s',
 	'UPDATE_COMMENT'			=> '댓글 업데이트',
 	'URL_INVALID'				=> '지정한 URL이 잘못되었습니다.',
@@ -272,7 +272,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> '당신은 그것 때문에 포럼 형식으로 지원하지않으므로 이 포럼에 작업을 게시 할 수 없습니다.',
 
 	'VIEW_MESSAGE'				=> '%s제출 된 메시지보기%s',
-	'VIEW_PRIVATE_MESSAGE'		=> '%s제출 한 비밀 메시지보기%s',
+	'VIEW_PRIVATE_MESSAGE'		=> '%s제출 한 개인 메시지보기%s',
 
 	'WRONG_FILESIZE'			=> '이 파일은, 허용되는 최대 크기가 너무 큽니다 %1$d %2$s.',
 	'WRONG_SIZE'				=> '이미지는 적어도 %1$s의 넓이여야합니다, 가장 %3$s의 폭과 %4$s의 높이에서 %2$s의 높이. 제출 된 이미지가 5%$s의 폭보다 %6$s 높다.',

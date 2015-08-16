@@ -1,4 +1,4 @@
-Subject: 중재 통지를 게시 - "{TOPIC_TITLE}"
+Subject: 중재 알림을 게시 - "{TOPIC_TITLE}"
 
 안녕하십니까 {USERNAME} 님
 

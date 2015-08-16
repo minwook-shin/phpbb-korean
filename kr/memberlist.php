@@ -39,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> '프로필',
-	'ACTIVE_IN_FORUM'		=> '대부분의 활성화 포럼',
-	'ACTIVE_IN_TOPIC'		=> '대부분의 활동한 글타래',
+	'ACTIVE_IN_FORUM'		=> '대부분 활동한 포럼',
+	'ACTIVE_IN_TOPIC'		=> '대부분 활동한 글타래',
 	'ADD_FOE'				=> '싫어하는 친구 추가',
 	'ADD_FRIEND'			=> '친구 추가',
 	'AFTER'					=> '후',
@@ -84,11 +84,11 @@ $lang = array_merge($lang, array(
 	'IM_MESSAGE'			=> '당신의 메시지',
 	'IM_NAME'				=> '당신의 이름',
 	'IM_NO_DATA'			=> '이 유저에 대한 적절한 연락처 정보가 없습니다.',
-	'IM_NO_JABBER'			=> '죄송합니다, 재버 유저의 직접 메시징은이 게시판에서 지원되지 않습니다. 당신은 위의받는 사람에게 연락하는 시스템에 설치 재버 클라이언트가 필요합니다.',
+	'IM_NO_JABBER'			=> '죄송합니다, Jabber 유저의 직접 메시징은이 게시판에서 지원되지 않습니다. 당신은 위의받는 사람에게 연락하는 시스템에 설치 Jabber 클라이언트가 필요합니다.',
 	'IM_RECIPIENT'			=> '받는 사람',
 	'IM_SEND'				=> '메시지 보내기',
 	'IM_SEND_MESSAGE'		=> '메시지 보내기',
-	'IM_SENT_JABBER'		=> '%1$s에 대한 귀하의 메시지가 성공적으로 전송되었습니다.',
+	'IM_SENT_JABBER'		=> '%1$s에 대한 당신의 메시지가 성공적으로 전송되었습니다.',
 	'IM_USER'				=> '인스턴트 메시지 보내기',
 
 	'LAST_ACTIVE'				=> '마지막 활성화',
