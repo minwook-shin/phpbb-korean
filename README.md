@@ -1,5 +1,5 @@
 # phpbb-korean
-PHPBB3.1.x 한국어 언어 팩 / PHPBB3.1.x Korean Language Packs <br/>
+PHPBB3.1.x 한국어 언어 팩 15.8 / PHPBB3.1.x Korean Language Packs 15.8 <br/>
 translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
 ##lisence
