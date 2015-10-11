@@ -407,7 +407,7 @@ $lang = array_merge($lang, array(
 
 	'VIEW_DETAILS'			=> 'View details',
 	'VIEW_PM'				=> 'View private message',
-	'VIEW_POST'				=> 'View post',
+	'VIEW_POST'				=> '게시물 보기',
 
 	'WARNED_USERS'			=> 'Warned users',
 	'WARNED_USERS_EXPLAIN'	=> 'This is a list of users with unexpired warnings issued to them.',
