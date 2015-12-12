@@ -1,11 +1,13 @@
-#버전 기록
+# History
 
-##15.10
-- 인스톨러 번역 진행 시작
-- 모더레이터 제어판 번역 완료
-- 15.10는 한국의 한글날을 기념하는 버전입니다.
+# 15.10
+•installer translation in progress.
+•moderator Panel translated.
+•15.10 version to commemorate the Hangul Day in South Korea (2015.10.09).
 
-##15.8
-- 최초 정식 버전 (곧 어드민 제어판 번역 할 것입니다) <br/>
-- 영문 버전의 readme 추가 <br/>
-- 많은 오역 제거
+# 15.8
+•The first full version (Admin Control Panel will be translated soon) 
+
+•Add the English version of the readme 
+
+•Removing many mistranslation
