@@ -4,8 +4,9 @@ PHPBB3.1.x Korean Language Pack 15.8 / PHPBB3.1.x Korean Language Packs 15.8
 
 translation 2015 ~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
-#lisence
-Copyright undeclared can be a civil lawsuit.
+#Translate licenses
+Creative Commons License CC BY-NC-SA https://creativecommons.org/licenses/by-nc-sa/4.0/ 
+
 
 #[PHPBB3.1.x Korean Language Pack Introduce]
 
