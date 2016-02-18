@@ -6,6 +6,7 @@ translation 2015 ~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
 #Translate licenses
 translation by @ 2015 ~ minwook shin
+
 GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
 * follows licensing of the platform.
 
