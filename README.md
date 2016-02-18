@@ -5,8 +5,10 @@ PHPBB3.1.x Korean Language Pack 15.8 / PHPBB3.1.x Korean Language Packs 15.8
 translation 2015 ~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
 #Translate licenses
-* @copyright (c) minwook-shin
-* Creative Commons License CC BY-NC-SA https://creativecommons.org/licenses/by-nc-sa/4.0/ 
+translation by @ 2015 ~ minwook shin
+GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
+* follows licensing of the platform.
+
 
 #template licenses
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
