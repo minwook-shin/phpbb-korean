@@ -1,0 +1,9 @@
+Subject: 그룹 가입 요청이 있습니다.
+
+{USERNAME} 님,
+
+사용자 "{REQUEST_USERNAME}"이 (가) "{SITENAME}"의 운영자 "{GROUP_NAME}"에 가입하도록 요청했습니다.
+이 그룹 회원 신청을 승인 또는 거절하려면 다음 링크를 방문하십시오 :
+{U_PENDING}
+
+{EMAIL_SIG}

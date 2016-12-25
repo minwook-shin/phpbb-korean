@@ -1,7 +1,0 @@
-Subject: 삭제 보고서 - "{PM_SUBJECT}"
-
-안녕하십니까 {USERNAME} 님
-
-보고서에서 개인 메시지 "{PM_SUBJECT}"의 삭제에 대해 이 알림을 받고있습니다 비밀메시지는 "{SITENAME}"운영자 또는 관리자에 의해 삭제되었습니다.
-
-{EMAIL_SIG}

@@ -1,0 +1,6 @@
+Subject: 폐쇄 된 보고서 - '{POST_SUBJECT}'
+
+{USERNAME} 님, 안녕하세요.
+
+'{SITENAME}'의 '{TOPIC_TITLE}'게시물 "{POST_SUBJECT}"에 제출 한 신고가 운영자 또는 관리자에 의해 처리 되었기 때문에 이 알림을 받고 있습니다. 그 보고서는 이후 폐쇄되었습니다. 추가 질문이있는 경우 {CLOSER_NAME}에 개인 메시지로 문의하십시오.
+{EMAIL_SIG}

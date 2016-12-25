@@ -1,6 +1,6 @@
 #phpbb-korean
 
-PHPBB3.1.x Korean Language Pack 15.8 / PHPBB3.1.x Korean Language Packs 15.8 
+PHPBB3.1.x Korean Language Pack (Verified version : 3.1.10)
 
 translation 2015 ~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
@@ -20,10 +20,7 @@ GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
 
 Development here: https://github.com/minwook-shin/phpbb-korean 
 
-"Admin Control Panel" will be translated soon.
- 
-other PHP language file is 100% translated . 
- 
-The first version of the language pack is 15.8 (2015.08).
- 
-The latest version of the language pack is 15.10 (2015.10).
+It is being translated into a new version different from the 2015 version. Merry Christmas! (2016.12.25)
+
+
+Admin panel("\ACP\*.php" , "install.php") is English only!

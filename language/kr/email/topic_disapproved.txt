@@ -1,0 +1,11 @@
+Subject: 주제가 비 승인 됨 - '{TOPIC_TITLE}'
+
+{USERNAME} 님, 안녕하세요.
+
+운영자 또는 관리자가 '{SITENAME}'의 주제 "{TOPIC_TITLE}"을 비 승인했기 때문에 이 알림을 받고 있습니다.
+
+비 승인 이유는 다음과 같습니다.
+
+{REASON}
+
+{EMAIL_SIG}

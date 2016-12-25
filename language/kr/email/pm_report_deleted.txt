@@ -1,0 +1,6 @@
+Subject: 보고서가 삭제되었습니다. - "{PM_SUBJECT}"
+
+{USERNAME} 님, 안녕하세요.
+
+중재자 또는 관리자가 "{SITENAME}"의 비공개 메시지 "{SITENAME}"에 대한 귀하의 신고를 삭제했기 때문에 이 알림을 받고 있습니다.
+{EMAIL_SIG}

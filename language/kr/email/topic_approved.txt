@@ -1,0 +1,10 @@
+Subject: 주제 승인 됨 - "{TOPIC_TITLE}"
+
+{USERNAME} 님, 안녕하세요.
+
+"{SITENAME}"의 주제 "{TOPIC_TITLE}"이 운영자 또는 관리자의 승인을 받아 이 알림을 받고 있습니다.
+
+주제를 보려면 다음 링크를 클릭하십시오.
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

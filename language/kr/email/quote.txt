@@ -1,0 +1,20 @@
+Subject: 주제 답장 알림 - "{TOPIC_TITLE}"
+
+{USERNAME} 님, 안녕하세요.
+
+'{AUTHOR_NAME}'이 (가) '{TOPIC_TITLE}'의 항목 '{SITENAME}'에서 나를 인용했기 때문에 이 알림을 받고 있습니다. 다음 링크를 사용하여 답장을 볼 수 있습니다.
+
+따옴표 붙은 게시물을 보려면 다음 링크를 클릭하십시오.
+{U_VIEW_POST}
+
+주제를 보려면 다음 링크를 클릭하십시오.
+{U_TOPIC}
+
+포럼을 보려면 다음 링크를 클릭하십시오.
+{U_FORUM}
+
+답글에 대한 업데이트를 더 이상받지 않으려면 여기에서 알림 설정을 업데이트하십시오.
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

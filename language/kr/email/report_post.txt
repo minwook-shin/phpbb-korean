@@ -1,0 +1,13 @@
+Subject: 게시물 보고서 - "{TOPIC_TITLE}"
+
+{USERNAME} 님, 안녕하세요.
+
+'{SITENAME}'의 게시물 "{POST_SUBJECT}"이 (가)보고되었으므로 이 알림을 받고 있습니다.
+
+보고서를 보려면 다음 링크를 클릭하십시오.
+{U_VIEW_REPORT}
+
+게시물을 보려면 다음 링크를 클릭하십시오.
+{U_VIEW_POST}
+
+{EMAIL_SIG}
