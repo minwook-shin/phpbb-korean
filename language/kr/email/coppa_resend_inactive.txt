@@ -1,16 +1,17 @@
-Subject: "{SITENAME}"에 오신 것을 환영합니다.
+Subject: Welcome to "{SITENAME}"
 
 {WELCOME_MSG}
 
-COPPA에 따라 귀하의 계정은 현재 비활성 상태입니다.
+In compliance with the COPPA, your account is currently inactive.
 
-이 메시지를 인쇄하고 부모님이나 보호자에게 서명하고 날짜를 기입하십시오. 그런 다음 팩스를 보내십시오.
+Please print this message and have your parent or guardian sign and date it. Then fax it to:
 
 {FAX_INFO}
 
-또는 다음 주소로 메일을 보냅니다.
+OR mail it to:
 
 {MAIL_INFO}
+
 ------------------------------ CUT HERE ------------------------------
 Permission to participate at "{SITENAME}" - {U_BOARD}
 
@@ -32,9 +33,10 @@ Date: _______________
 ------------------------------ CUT HERE ------------------------------
 
 
-관리자가 팩스 나 일반 우편으로 위의 양식을 받으면 귀하의 계정이 활성화됩니다.
+Once the administrator has received the above form via fax or regular mail, your account will be activated.
 
-귀하의 비밀번호는 데이터베이스에 안전하게 저장되어 있으며 검색 할 수 없습니다. 잊어 버린 경우 계정과 연결된 이메일 주소를 사용하여 재설정 할 수 있습니다.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
-등록 해주셔서 감사합니다.
+Thank you for registering.
+
 {EMAIL_SIG}

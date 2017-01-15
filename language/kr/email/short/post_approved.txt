@@ -1,13 +1,13 @@
-Subject: 게시 승인 됨 - "{POST_SUBJECT}"
+Subject: Post approved - "{POST_SUBJECT}"
 
-{USERNAME} 님, 안녕하세요.
+Hello {USERNAME},
 
-운영자 또는 관리자가 "{SITENAME}"의 게시물 "{POST_SUBJECT}"을 (를) 승인했기 때문에 이 알림을 받고 있습니다.
+You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
 
-게시물을 보려면 다음 링크를 클릭하십시오.
+If you want to view the post, click the following link:
 {U_VIEW_POST}
 
-주제를 보려면 다음 링크를 클릭하십시오.
+If you want to view the topic, click the following link:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

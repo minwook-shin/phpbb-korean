@@ -1,18 +1,19 @@
-Subject: phpBB 설치됨
+Subject: phpBB installed
 
-축하합니다,
+Congratulations,
 
-서버에 phpBB를 성공적으로 설치했습니다.
+You have successfully installed phpBB on your server.
 
-이 전자 메일에는 설치와 관련된 중요한 정보가 들어 있으므로 참조 용으로 보관해야합니다. 귀하의 비밀번호는 데이터베이스에 안전하게 저장되어 있으며 검색 할 수 없습니다. 잊어 버린 경우 계정과 연결된 이메일 주소를 사용하여 재설정 할 수 있습니다.
+This email contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
 ----------------------------
-사용자 이름 : {USERNAME}
+Username: {USERNAME}
 
-게시판 URL : {U_BOARD}
+Board URL: {U_BOARD}
 ----------------------------
 
-phpBB 소프트웨어에 관한 유용한 정보는 설치의 docs 폴더와 phpBB.com의 지원 페이지 (https://www.phpbb.com/support/)에서 찾을 수 있습니다.
+Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - https://www.phpbb.com/support/
 
-보드를 안전하고 안전하게 유지하기 위해 소프트웨어 릴리스를 최신 상태로 유지할 것을 적극 권장합니다. 귀하의 편의를 위해 위에서 언급 한 페이지에서 메일 링리스트를 이용할 수 있습니다.
+In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+
 {EMAIL_SIG}

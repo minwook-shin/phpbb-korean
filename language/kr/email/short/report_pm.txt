@@ -1,10 +1,10 @@
-Subject: 비공개 메시지 보고서 - "{TOPIC_TITLE}"
+Subject: Private Message report - "{TOPIC_TITLE}"
 
-{USERNAME} 님, 안녕하세요.
+Hello {USERNAME},
 
-'{SITENAME}'의 '{AUTHOR_NAME}'이 (가) '{SUBJECT}'라는 비공개 메시지를 신고했기 때문에이 알림을 받고 있습니다.
+You are receiving this notification because a Private Message titled "{SUBJECT}" by "{AUTHOR_NAME}" at "{SITENAME}" was reported.
 
-보고서를 보려면 다음 링크를 클릭하십시오.
+If you want to view the report, click the following link:
 {U_VIEW_REPORT}
 
 {EMAIL_SIG}

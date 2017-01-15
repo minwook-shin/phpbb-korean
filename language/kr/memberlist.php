@@ -1,15 +1,15 @@
 <?php
 /**
 *
-*이 파일은 korean Language Pack의 일부입니다.
-* phpBB 포럼 소프트웨어.
+* This file is part of the American English Language Pack
+* for the phpBB Forum Software.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU 일반 공중 라이선스, 버전 2 (GPL-2.0)
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* 전체 저작권 및 라이센스 정보는 다음을 참조하십시오.
-* docs / CREDITS.txt 파일
-* korean translation	2015~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 */
 
 /**
@@ -38,119 +38,118 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ABOUT_USER'			=> '프로필',
-	'ACTIVE_IN_FORUM'		=> '가장 활성화된 포럼',
-	'ACTIVE_IN_TOPIC'		=> '가장 활성화된 주제',
-	'ADD_FOE'				=> '웬수 추가',
-	'ADD_FRIEND'			=> '친구 추가',
-	'AFTER'					=> '이후',
+	'ABOUT_USER'			=> 'Profile',
+	'ACTIVE_IN_FORUM'		=> 'Most active forum',
+	'ACTIVE_IN_TOPIC'		=> 'Most active topic',
+	'ADD_FOE'				=> 'Add foe',
+	'ADD_FRIEND'			=> 'Add friend',
+	'AFTER'					=> 'After',
 
-	'ALL'					=> '모두',
+	'ALL'					=> 'All',
 
-	'BEFORE'				=> '이전',
+	'BEFORE'				=> 'Before',
 
-'CC_SENDER'=> '본 이메일의 사본을 본인에게 보내십시오.',
-'CONTACT_ADMIN'=> '이사회 관리자에게 문의',
+	'CC_SENDER'				=> 'Send a copy of this email to yourself.',
+	'CONTACT_ADMIN'			=> 'Contact a Board Administrator',
 
-'DEST_LANG'=> '언어',
-'DEST_LANG_EXPLAIN'=> '이 메시지를받는 사람에게 적절한 언어를 선택하십시오.',
+	'DEST_LANG'				=> 'Language',
+	'DEST_LANG_EXPLAIN'		=> 'Select an appropriate language (if available) for the recipient of this message.',
 
-'EDIT_PROFILE'=> '프로필 수정',
+	'EDIT_PROFILE'			=> 'Edit profile',
 
-'EMAIL_BODY_EXPLAIN'=> '이 메시지는 일반 텍스트로 전송되며 HTML 또는 BBCode는 포함되지 않습니다. 이 메시지의 반송 주소는 귀하의 이메일 주소로 설정됩니다. ',
-'EMAIL_DISABLED'=> '죄송하지만 모든 이메일 관련 기능이 사용 중지되었습니다.',
-'EMAIL_SENT'=> '이메일을 보냈습니다.',
-'EMAIL_TOPIC_EXPLAIN'=> '이 메시지는 일반 텍스트로 보내지 만 HTML이나 BBCode는 포함하지 않습니다. 주제 정보는 이미 메시지에 포함되어 있습니다. 이 메시지의 반송 주소는 귀하의 이메일 주소로 설정됩니다. ',
-'EMPTY_ADDRESS_EMAIL'=> '수신자에게 올바른 이메일 주소를 입력해야합니다.',
-'EMPTY_MESSAGE_EMAIL'=> '이메일을 보내려면 메시지를 입력해야합니다.',
-'EMPTY_MESSAGE_IM'=> '보낼 메시지를 입력해야합니다.',
-'EMPTY_NAME_EMAIL'=> '수신자의 실제 이름을 입력해야합니다.',
-'EMPTY_SENDER_EMAIL'=> '올바른 이메일 주소를 입력해야합니다.',
-'EMPTY_SENDER_NAME'=> '이름을 입력해야합니다.',
-'EMPTY_SUBJECT_EMAIL'=> '이메일 제목을 지정해야합니다.',
-'EQUAL_TO'=> '같음',
+	'EMAIL_BODY_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. The return address for this message will be set to your email address.',
+	'EMAIL_DISABLED'		=> 'Sorry but all email related functions have been disabled.',
+	'EMAIL_SENT'			=> 'The email has been sent.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. Please note that the topic information is already included in the message. The return address for this message will be set to your email address.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'You must provide a valid email address for the recipient.',
+	'EMPTY_MESSAGE_EMAIL'	=> 'You must enter a message to be emailed.',
+	'EMPTY_MESSAGE_IM'		=> 'You must enter a message to be send.',
+	'EMPTY_NAME_EMAIL'		=> 'You must enter the real name of the recipient.',
+	'EMPTY_SENDER_EMAIL'	=> 'You must provide a valid email address.',
+	'EMPTY_SENDER_NAME'		=> 'You must provide a name.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'You must specify a subject for the email.',
+	'EQUAL_TO'				=> 'Equal to',
 
-'FIND_USERNAME_EXPLAIN'=> '이 양식을 사용하여 특정 회원을 검색하십시오. 모든 입력란을 작성할 필요는 없습니다. 부분 데이터와 일치 시키려면 *를 와일드 카드로 사용하십시오. 날짜를 입력 할 때 <kbd> YYYY-MM-DD </ kbd> 형식을 사용하십시오. <samp> 2004-02-29 </ samp>. 표시 확인란을 사용하여 하나 이상의 사용자 이름을 선택하고 (양식 자체에 따라 여러 사용자 이름을 사용할 수 있음) 표시된 양식 선택 버튼을 클릭하여 이전 양식으로 돌아갑니다. ',
-'FLOOD_EMAIL_LIMIT'=> '현재 다른 이메일을 보낼 수 없습니다. 나중에 다시 시도 해주십시오.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Use this form to search for specific members. You do not need to fill out all fields. To match partial data use * as a wildcard. When entering dates use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the mark checkboxes to select one or more usernames (several usernames may be accepted depending on the form itself) and click the Select Marked button to return to the previous form.',
+	'FLOOD_EMAIL_LIMIT'		=> 'You cannot send another email at this time. Please try again later.',
 
-'GROUP_LEADER'=> '그룹 리더',
+	'GROUP_LEADER'			=> 'Group leader',
 
-'HIDE_MEMBER_SEARCH'=> '회원 검색 숨기기',
+	'HIDE_MEMBER_SEARCH'	=> 'Hide member search',
 
-'IM_ADD_CONTACT'=> '연락처 추가',
-'IM_DOWNLOAD_APP'=> '애플리케이션 다운로드',
-'IM_JABBER'=> '사용자가 원치 않는 인스턴트 메시지를받지 않기로 선택했을 수 있습니다.',
-'IM_JABBER_SUBJECT'=> '이것은 자동 응답 된 메시지입니다. %2$s의 사용자 %1$s 님의 메시지 ',
-'IM_MESSAGE'=> '귀하의 메시지',
-'IM_NAME'=> '귀하의 이름',
-'IM_NO_DATA'=> '이 사용자에게 적합한 연락처 정보가 없습니다.',
-'IM_NO_JABBER'=> '죄송합니다. Jabber 사용자의 직접 메시지는이 보드에서 지원되지 않습니다. 위의 수신자에게 연락하려면 시스템에 Jabber 클라이언트가 설치되어 있어야합니다. ',
-'IM_RECIPIENT'=> '수신자',
-'IM_SEND'=> '메시지 보내기',
-'IM_SEND_MESSAGE'=> '메시지 보내기',
-'IM_SENT_JABBER'=> '%1$s에 대한 메시지를 성공적으로 보냈습니다.',
-'IM_USER'=> '인스턴트 메시지 보내기',
+	'IM_ADD_CONTACT'		=> 'Add Contact',
+	'IM_DOWNLOAD_APP'		=> 'Download application',
+	'IM_JABBER'				=> 'Please note that users may have selected to not receive unsolicited instant messages.',
+	'IM_JABBER_SUBJECT'		=> 'This is an automated message please do not reply! Message from user %1$s at %2$s.',
+	'IM_MESSAGE'			=> 'Your message',
+	'IM_NAME'				=> 'Your Name',
+	'IM_NO_DATA'			=> 'There is no suitable contact information for this user.',
+	'IM_NO_JABBER'			=> 'Sorry, direct messaging of Jabber users is not supported on this board. You will need a Jabber client installed on your system to contact the recipient above.',
+	'IM_RECIPIENT'			=> 'Recipient',
+	'IM_SEND'				=> 'Send message',
+	'IM_SEND_MESSAGE'		=> 'Send message',
+	'IM_SENT_JABBER'		=> 'Your message to %1$s has been sent successfully.',
+	'IM_USER'				=> 'Send an instant message',
 
-'LAST_ACTIVE'=> '마지막 활성',
-'LESS_THAN'=> '보다 작음',
-'LIST_USERS'=> array(
-1 => '%d 사용자',
-2 => '%d 사용자',
-),
-'LOGIN_EXPLAIN_TEAM'=> '보드는 팀리스트를 보려면 등록하고 로그인해야합니다.',
-'LOGIN_EXPLAIN_MEMBERLIST'=> '회원 목록에 액세스하려면 게시판에 등록하고 로그인해야합니다.',
-'LOGIN_EXPLAIN_SEARCHUSER'=> '게시판은 사용자를 검색하려면 등록 및 로그인해야합니다.',
-'LOGIN_EXPLAIN_VIEWPROFILE'=> '게시판에서 프로필을 보려면 등록하고 로그인해야합니다.',
-
-'MANAGE_GROUP'=> '그룹 관리',
-'MORE_THAN'=> '이상',
-
-'NO_CONTACT_FORM'=> '게시판 관리자 문의 양식이 사용 중지되었습니다.',
-'NO_CONTACT_PAGE'=> '게시판 관리자 연락처 페이지가 사용 중지되었습니다.',
-'NO_EMAIL'=> '이 사용자에게 이메일을 보낼 수 없습니다.',
-'NO_VIEW_USERS'=> '회원 목록을 볼 수있는 권한이 없습니다.',
-
-'주문'=> '주문',
-'기타'=> '기타',
-
-'POST_IP'=> '게시자 IP / 도메인',
-
-'REAL_NAME'=> '수신자 이름',
-'RECIPIENT'=> '수신자',
-'REMOVE_FOE'=> '적을 제거하십시오',
-'REMOVE_FRIEND'=> '친구 삭제',
-
-'SELECT_MARKED'=> '선택 표시',
-'SELECT_SORT_METHOD'=> '정렬 방법 선택',
-'SENDER_EMAIL_ADDRESS'=> '귀하의 이메일 주소',
-'SENDER_NAME'=> '귀하의 이름',
-'SEND_ICQ_MESSAGE'=> 'ICQ 메시지 보내기',
-'SEND_IM'=> '인스턴트 메시징',
-'SEND_JABBER_MESSAGE'=> 'Jabber 메시지 보내기',
-'SEND_MESSAGE'=> '메시지',
-'SEND_YIM_MESSAGE'=> 'YIM 메시지 보내기',
-'SORT_EMAIL'=> '이메일',
-'SORT_LAST_ACTIVE'=> '마지막 활성',
-'SORT_POST_COUNT'=> '게시물 개수',
-
-'USERNAME_BEGINS_WITH'=> '사용자 이름으로 시작합니다',
-'USER_ADMIN'=> '관리자 관리',
-'USER_BAN'=> '금지',
-'USER_FORUM'=> '사용자 통계',
-'USER_LAST_REMINDED'=> array(
-0 => '지금 알리지 않음',
-1 => '%1$d 알림이 전송되었습니다. <br />»%2$s',
-2 => '%1$d 알림이 전송되었습니다. <br />»%2$s',
-	
+	'LAST_ACTIVE'				=> 'Last active',
+	'LESS_THAN'					=> 'Less than',
+	'LIST_USERS'				=> array(
+		1	=> '%d user',
+		2	=> '%d users',
 	),
-'USER_ONLINE'			=> '온라인',
-'USER_PRESENCE'=> '이사회 참석',
-'USERS_PER_PAGE'=> '페이지 당 사용자 수',
+	'LOGIN_EXPLAIN_TEAM'		=> 'The board requires you to be registered and logged in to view the team listing.',
+	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'The board requires you to be registered and logged in to access the memberlist.',
+	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'The board requires you to be registered and logged in to search users.',
+	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'The board requires you to be registered and logged in to view profiles.',
 
-'VIEWING_PROFILE'		=> '프로필 보기 - %s',
-'VIEW_FACEBOOK_PROFILE'	=> '페이스북 프로필 보기',
-'VIEW_SKYPE_PROFILE'	=> '스카이프 프로필 보기',
-'VIEW_TWITTER_PROFILE'	=> '트위터 프로필 보기',
-'VIEW_YOUTUBE_CHANNEL'	=> '유튜브 채널 보기',
-'VIEW_GOOGLEPLUS_PROFILE' => '구글플러스 프로필 보기',
+	'MANAGE_GROUP'			=> 'Manage Group',
+	'MORE_THAN'				=> 'More than',
+
+	'NO_CONTACT_FORM'		=> 'The board administrator contact form has been disabled.',
+	'NO_CONTACT_PAGE'		=> 'The board administrator contact page has been disabled.',
+	'NO_EMAIL'				=> 'You are not permitted to send email to this user.',
+	'NO_VIEW_USERS'			=> 'You are not authorized to view the member list or profiles.',
+
+	'ORDER'					=> 'Order',
+	'OTHER'					=> 'Other',
+
+	'POST_IP'				=> 'Posted from IP/domain',
+
+	'REAL_NAME'				=> 'Recipient name',
+	'RECIPIENT'				=> 'Recipient',
+	'REMOVE_FOE'			=> 'Remove foe',
+	'REMOVE_FRIEND'			=> 'Remove friend',
+
+	'SELECT_MARKED'			=> 'Select marked',
+	'SELECT_SORT_METHOD'	=> 'Select sort method',
+	'SENDER_EMAIL_ADDRESS'	=> 'Your email address',
+	'SENDER_NAME'			=> 'Your name',
+	'SEND_ICQ_MESSAGE'		=> 'Send ICQ message',
+	'SEND_IM'				=> 'Instant messaging',
+	'SEND_JABBER_MESSAGE'	=> 'Send Jabber message',
+	'SEND_MESSAGE'			=> 'Message',
+	'SEND_YIM_MESSAGE'		=> 'Send YIM message',
+	'SORT_EMAIL'			=> 'Email',
+	'SORT_LAST_ACTIVE'		=> 'Last active',
+	'SORT_POST_COUNT'		=> 'Post count',
+
+	'USERNAME_BEGINS_WITH'	=> 'Username begins with',
+	'USER_ADMIN'			=> 'Administer user',
+	'USER_BAN'				=> 'Banning',
+	'USER_FORUM'			=> 'User statistics',
+	'USER_LAST_REMINDED'	=> array(
+		0		=> 'No reminder sent at this time',
+		1		=> '%1$d reminder sent<br />» %2$s',
+		2		=> '%1$d reminder sent<br />» %2$s',
+	),
+	'USER_ONLINE'			=> 'Online',
+	'USER_PRESENCE'			=> 'Board presence',
+	'USERS_PER_PAGE'		=> 'Users per page',
+
+	'VIEWING_PROFILE'		=> 'Viewing profile - %s',
+	'VIEW_FACEBOOK_PROFILE'	=> 'View Facebook Profile',
+	'VIEW_SKYPE_PROFILE'	=> 'View Skype Profile',
+	'VIEW_TWITTER_PROFILE'	=> 'View Twitter Profile',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'View YouTube Channel',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'View Google+ Profile',
 ));

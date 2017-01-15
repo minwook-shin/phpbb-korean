@@ -1,17 +1,17 @@
-Subject: '{SITENAME}'에서 계정 재 활성화
+Subject: Reactivate your account on "{SITENAME}"
 
-게시판 관리자가 귀하의 계정을 재 활성화하도록 요청했습니다. 귀하의 계정은 현재 비활성 상태입니다.
-계정을 재 활성화하려면 여기에 나와있는 단계를 따르십시오.
+A board administrator requested that your account be reactivated. Your account is currently inactive.
+Please follow the steps listed here to reactivate your account.
 
-귀하의 기록을 위해이 이메일을 보관하십시오. 귀하의 계정 정보는 다음과 같습니다 :
+Please keep this email for your records. Your account information is as follows:
 
 ----------------------------
-사용자 이름 : {USERNAME}
+Username: {USERNAME}
 ----------------------------
 
-귀하의 비밀번호는 데이터베이스에 안전하게 저장되어 있으며 검색 할 수 없습니다. 잊어 버린 경우 계정과 연결된 이메일 주소를 사용하여 재설정 할 수 있습니다.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
-계정을 재 활성화하려면 다음 링크를 방문하십시오.
+Please visit the following link to reactivate your account:
 
 {U_ACTIVATE}
 

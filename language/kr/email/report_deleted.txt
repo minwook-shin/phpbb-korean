@@ -1,6 +1,7 @@
-Subject: 보고서가 삭제됨 - "{POST_SUBJECT}"
+Subject: Report deleted - "{POST_SUBJECT}"
 
-{USERNAME} 님, 안녕하세요.
+Hello {USERNAME},
 
-'{SITENAME}'의 '{TOPIC_TITLE}'게시물 "{POST_SUBJECT}"에 제출 한 신고가 운영자 또는 관리자에 의해 삭제 되었기 때문에 이 알림이 전송되었습니다.
+You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was deleted by a moderator or by an administrator.
+
 {EMAIL_SIG}

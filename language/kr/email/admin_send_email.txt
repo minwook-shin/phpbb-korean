@@ -1,11 +1,11 @@
 
-다음은 "{SITENAME}"관리자가 귀하에게 보낸 이메일입니다. 이 메시지가 스팸 일 경우 불쾌감을주는 모욕적 인 설명을 포함하거나 게시판의 웹 마스터에게 다음 주소로 연락하십시오.
+The following is an email sent to you by an administrator of "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
 
 {CONTACT_EMAIL}
 
-전체 이메일 (특히 헤더)을 포함하십시오.
+Include this full email (particularly the headers). 
 
-다음과 같은 메시지가 전송됩니다.
+Message sent to you follows:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

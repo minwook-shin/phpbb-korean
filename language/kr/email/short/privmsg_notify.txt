@@ -1,14 +1,15 @@
-Subject: 새 비공개 메시지가 도착했습니다.
+Subject: New private message has arrived
 
-{USERNAME} 님, 안녕하세요.
+Hello {USERNAME},
 
-"{SITENAME}"에있는 귀하의 계정으로 다음과 같은 제목으로 "{AUTHOR_NAME}"님의 새로운 비공개 메시지를 받았습니다 :
+You have received a new private message from "{AUTHOR_NAME}" to your account on "{SITENAME}" with the following subject:
 
-{제목}
+{SUBJECT}
 
-다음 링크를 클릭하여 새 메시지를 볼 수 있습니다.
+You can view your new message by clicking on the following link:
 
 {U_VIEW_MESSAGE}
 
-이 이벤트에 대한 알림을 받도록 요청했습니다. 프로필의 적절한 설정을 변경하여 항상 새 메시지에 대한 알림을 받지 않도록 선택할 수 있습니다.
+You have requested that you be notified on this event, remember that you can always choose not to be notified of new messages by changing the appropriate setting in your profile.
+
 {EMAIL_SIG}

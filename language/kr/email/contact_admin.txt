@@ -1,22 +1,23 @@
-{TO_USERNAME} 님, 안녕하세요.
 
-다음은 "{SITENAME}"에 대한 관리 연락처 페이지를 통해 귀하에게 전송 된 전자 메일입니다.
+Hello {TO_USERNAME},
 
-<! - IF S_IS_REGISTERED ->
-메시지가 사이트의 계정에서 전송되었습니다.
-사용자 이름 : {FROM_USERNAME}
-이메일 주소 : {FROM_EMAIL_ADDRESS}
-IP 주소 : {FROM_IP_ADDRESS}
-프로필 : {U_FROM_PROFILE}
-<! - ELSE ->
-이 메시지는 다음 연락처 정보를 지정한 게스트가 보낸 것입니다.
-이름 : {FROM_USERNAME}
-이메일 주소 : {FROM_EMAIL_ADDRESS}
-IP 주소 : {FROM_IP_ADDRESS}
-<! - ENDIF ->
+The following is an e-mail sent to you through the administration contact page on "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+The message has been sent from an account on the site.
+Username: {FROM_USERNAME}
+E-mail address: {FROM_EMAIL_ADDRESS}
+IP Address: {FROM_IP_ADDRESS}
+Profile: {U_FROM_PROFILE}
+<!-- ELSE -->
+The message was sent from a guest who specified the following contact information:
+Name: {FROM_USERNAME}
+E-mail address: {FROM_EMAIL_ADDRESS}
+IP Address: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
 
 
-보낸 메시지는 다음과 같습니다.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Message sent to you follows
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

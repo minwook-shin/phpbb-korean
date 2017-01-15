@@ -1,19 +1,19 @@
-Subject: 주제 답장 알림 - "{TOPIC_TITLE}"
+Subject: Topic reply notification - "{TOPIC_TITLE}"
 
-{USERNAME} 님, 안녕하세요.
+Hello {USERNAME},
 
-마지막 방문 이후에 "{SITENAME}"에 북마크 한 주제 "{TOPIC_TITLE}"이 (가) 회신을 받으 셨기 때문에이 알림을 보내드립니다. 다음 링크를 사용하여 작성된 답장을 볼 수 있습니다. 주제를 방문 할 때까지 더 이상 알림이 전송되지 않습니다.
+You are receiving this notification because a topic you bookmarked, "{TOPIC_TITLE}" at "{SITENAME}", has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
 
-마지막 방문 이후에 작성된 최신 소식을 보려면 다음 링크를 클릭하십시오.
+If you want to view the newest post made since your last visit, click the following link:
 {U_NEWEST_POST}
 
-주제를 보려면 다음 링크를 클릭하십시오.
+If you want to view the topic, click the following link:
 {U_TOPIC}
 
-포럼을 보려면 다음 링크를 클릭하십시오.
+If you want to view the forum, click the following link:
 {U_FORUM}
 
-북마크에 대한 답글에 대한 업데이트를 더 이상받지 않으려면 여기에서 알림 설정을 업데이트하십시오.
+If you no longer wish to receive updates about replies to bookmarks, please update your notification settings here:
 
 {U_NOTIFICATION_SETTINGS}
 

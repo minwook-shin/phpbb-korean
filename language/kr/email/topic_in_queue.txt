@@ -1,13 +1,13 @@
-Subject: 주제 검토 알림 - "{TOPIC_TITLE}"
+Subject: Topic moderation notification - "{TOPIC_TITLE}"
 
-{USERNAME} 님, 안녕하세요.
+Hello {USERNAME},
 
-'{SITENAME}'의 '{TOPIC_TITLE}'주제에 승인이 필요하기 때문에 이 알림을 보내드립니다.
+You are receiving this notification because the topic "{TOPIC_TITLE}" at "{SITENAME}" needs approval.
 
-주제를 보려면 다음 링크를 클릭하십시오.
+If you want to view the topic, click the following link:
 {U_VIEW_TOPIC}
 
-포럼을 보려면 다음 링크를 클릭하십시오.
+If you want to view the forum, click the following link:
 {U_FORUM}
 
 {EMAIL_SIG}
