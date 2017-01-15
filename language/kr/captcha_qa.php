@@ -10,6 +10,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
+* korean translation	2017~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 */
 
 /**
