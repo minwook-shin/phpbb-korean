@@ -1,20 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: 주제 답장 알림 - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+{USERNAME} 님, 안녕하세요.
 
-You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME != '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+'{SITENAME}'에서 '{TOPIC_TITLE}'주제를보고 있으므로 이 알림이 전송됩니다. 마지막 주제 방문 이후 {AUTHOR_NAME} <! - ENDIF -> 님이 <! - IF AUTHOR_NAME! = ''-> 답장을 받았습니다. 다음 링크를 사용하여 작성된 답장을 볼 수 있습니다. 주제를 방문 할 때까지 더 이상 알림이 전송되지 않습니다.
 
-If you want to view the newest post made since your last visit, click the following link:
+마지막 방문 이후에 작성된 최신 소식을 보려면 다음 링크를 클릭하십시오.
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+주제를 보려면 다음 링크를 클릭하십시오.
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+포럼을 보려면 다음 링크를 클릭하십시오.
 {U_FORUM}
 
-If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
-
+더 이상이 주제를 보지 않으려면 위의 주제 하단에있는 "수신 거부"링크를 클릭하거나 다음 링크를 클릭하십시오.
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}
