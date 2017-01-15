@@ -10,6 +10,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
+* korean translation	2017~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 */
 
 /**
@@ -62,21 +63,21 @@ $lang = array_merge($lang, array(
 	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Reverting Schema: %1$s; Time: %2$.2f seconds',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Reverting Schema: %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migration is invalid. An if statement helper is missing a condition.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migration is invalid. An if statement helper is missing a valid call to a migration step.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migration is invalid. A custom callable function could not be called.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migration is invalid. An unknown migration tool type was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migration is invalid. An undefined migration tool was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migration is invalid. An undefined migration tool method was encountered.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> '마이그레이션이 잘못되었습니다. if 문 헬퍼에 조건이 없습니다.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> '마이그레이션이 잘못되었습니다. if 문 보조자가 이주 단계에 대한 유효한 호출을 누락했습니다.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> '마이그레이션이 잘못되었습니다. 사용자 정의 호출 가능 함수를 호출 할 수 없습니다.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> '마이그레이션이 잘못되었습니다. 알 수없는 마이그레이션 도구 유형이 발생했습니다.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구가 발생했습니다.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구 방법이 발생했습니다.',
 
-	'MODULE_ERROR'						=> 'An error occurred while creating a module: %s',
-	'MODULE_EXISTS'						=> 'A module already exists: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Several modules with the given parent module langname already exist: %s. Try using before/after keys to clarify the module placement.',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'A required module info file is missing: %2$s',
-	'MODULE_NOT_EXIST'					=> 'A required module does not exist: %s',
+	'MODULE_ERROR'						=> '모듈을 만드는 동안 오류가 발생했습니다 : %s',
+	'MODULE_EXISTS'						=> '모듈이 이미 있습니다: %s',
+	'MODULE_EXIST_MULTIPLE'				=> '주어진 부모 모듈 langname을 가진 여러 모듈이 이미 존재합니다 : %s. Try using before/after keys to clarify the module placement.',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> '필수 모듈 정보 파일이 누락되었습니다: %2$s',
+	'MODULE_NOT_EXIST'					=> '필수 모듈이 존재하지 않습니다: %s',
 
-	'PARENT_MODULE_FIND_ERROR'			=> 'Unable to determine the parent module identifier: %s',
-	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" unexpectedly does not exist.',
+	'PARENT_MODULE_FIND_ERROR'			=> '상위 모듈 식별자를 확인할 수 없습니다: %s',
+	'PERMISSION_NOT_EXIST'				=> '"%s"권한 설정이 예기치 않게 존재하지 않습니다.',
 
-	'ROLE_NOT_EXIST'					=> 'The permission role "%s" unexpectedly does not exist.',
+	'ROLE_NOT_EXIST'					=> '"%s"권한 역할이 예기치 않게 존재하지 않습니다.',
 ));
