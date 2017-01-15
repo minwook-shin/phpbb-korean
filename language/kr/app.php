@@ -10,6 +10,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
+* korean translation	2017~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 */
 
 /**
@@ -42,8 +43,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'The service for controller “<strong>%s</strong>” is not defined in ./config/services.yml.',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> '인수 #%1$s 에 누락 된 값 : <strong>%2$s</strong>클래스의 <strong>%3$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			=> '컨트롤러가 지정되지 않았습니다.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> '컨트롤러에 대해 지정된 메서드가 없습니다.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> '“<strong>%s</strong>”컨트롤러에 대한 서비스는 ./config/services.yml에서 정의 되지않았습니다.',
 ));
