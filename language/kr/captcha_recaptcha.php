@@ -10,6 +10,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
+* korean translation	2017~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 */
 
 /**
@@ -38,16 +39,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'In order to use reCAPTCHA, you must create an account on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_LANG'				=> 'kr',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'reCAPTCHA를 사용하려면 <a href="http://www.google.com/recaptcha"> www.google.com/recaptcha </a>에서 계정을 만들어야합니다.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA',
-	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
-	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
+	'RECAPTCHA_INCORRECT'			=> '제공된 솔루션이 잘못되었습니다.',
+	'RECAPTCHA_NOSCRIPT'			=> '도전을 로드하려면 브라우저에서 JavaScript를 활성화하십시오.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public reCAPTCHA key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public reCAPTCHA key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Private reCAPTCHA key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCAPTCHA key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> '공개 reCAPTCHA 키',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '공개 reCAPTCHA 키. 키는 <a href="http://www.google.com/recaptcha"> www.google.com/recaptcha </a>에서 얻을 수 있습니다.',
+	'RECAPTCHA_PRIVATE'				=> '비공개 reCAPTCHA 키',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '비공개 reCAPTCHA 키. 키는 <a href="http://www.google.com/recaptcha"> www.google.com/recaptcha </a>에서 얻을 수 있습니다.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'In an effort to prevent automatic submissions, we require that you complete the following challenge.',
+	'RECAPTCHA_EXPLAIN'				=> '자동 제출을 막기 위해 다음과 같은 과제를 완료해야합니다.',
 ));
