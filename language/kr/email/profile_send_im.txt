@@ -1,13 +1,13 @@
 
-Hello {TO_USERNAME},
+{TO_USERNAME} 님, 안녕하세요.
 
-The following is a message sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+다음은 "{SITENAME}"에 귀하의 계정을 통해 {FROM_USERNAME} 님이 귀하에게 보낸 메시지입니다. 이 메시지가 스팸 일 경우 불쾌감을주는 모욕적 인 설명을 포함하거나 게시판의 웹 마스터에게 다음 주소로 연락하십시오.
 
 {BOARD_CONTACT}
 
-Include this full message. Please note that the sender address has been set to the boards IM account.
+이 전체 메시지를 포함하십시오. 보낸 사람 주소는 게시판 IM 계정으로 설정되어 있습니다.
 
-Message sent to you follows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+보낸 메시지는 다음과 같습니다.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

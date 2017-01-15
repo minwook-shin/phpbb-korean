@@ -1,13 +1,13 @@
 
-Hello {TO_USERNAME},
+{TO_USERNAME} 님, 안녕하세요.
 
-The following is an email sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+다음은 {FROM_USERNAME}이 (가) 귀하의 계정을 통해 "{SITENAME}"(으)로 보낸 이메일입니다. 이 메시지가 스팸 일 경우 불쾌감을주는 모욕적 인 설명을 포함하거나 게시판의 웹 마스터에게 다음 주소로 연락하십시오.
 
 {BOARD_CONTACT}
 
-Include this full email (particularly the headers). Please note that the reply address to this email has been set to that of {FROM_USERNAME}.
+전체 이메일 (특히 헤더)을 포함하십시오. 이 이메일의 회신 주소는 {FROM_USERNAME}의 회신 주소로 설정되어 있습니다.
 
-Message sent to you follows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+보낸 메시지는 다음과 같습니다.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

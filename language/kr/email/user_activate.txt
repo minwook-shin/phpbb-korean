@@ -1,9 +1,8 @@
-Subject: Reactivate your account
+Subject: 계정 재 활성화
 
-Hello {USERNAME},
+{USERNAME} 님, 안녕하세요.
 
-Your account on "{SITENAME}" has been deactivated, most likely due to changes made to your profile. In order to reactivate your account you must click on the link below:
-
+'{SITENAME}'에있는 귀하의 계정이 비활성화되었습니다. 이는 프로필 변경으로 인한 것입니다. 계정을 재 활성화하려면 아래 링크를 클릭해야합니다.
 {U_ACTIVATE}
 
 {EMAIL_SIG}

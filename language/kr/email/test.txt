@@ -1,9 +1,9 @@
-Subject: phpBB is correctly configured to send emails
+Subject: phpBB가 전자 메일을 보내도록 올바르게 구성되었습니다.
 
-Hello {USERNAME},
+{USERNAME} 님, 안녕하세요.
 
-Congratulations. If you received this email, phpBB is correctly configured to send emails.
+축하합니다. 이 이메일을 받았다면, phpBB는 이메일을 보내도록 올바르게 설정되어 있습니다.
 
-In case you require assistance, please visit the phpBB support forums - https://www.phpbb.com/community/
+도움이 필요한 경우 phpBB 지원 포럼을 방문하십시오. - https://www.phpbb.com/community/
 
 {EMAIL_SIG}
