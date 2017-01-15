@@ -11,6 +11,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
+* korean translation	2017~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 */
 
 /**
@@ -39,42 +40,42 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'PLUPLOAD_ADD_FILES'		=> 'Add files',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Add files to the upload queue and click the start button.',
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s already present in the queue.',
-	'PLUPLOAD_CLOSE'			=> 'Close',
-	'PLUPLOAD_DRAG'				=> 'Drag files here.',
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Duplicate file error.',
-	'PLUPLOAD_DRAG_TEXTAREA'	=> 'You may also attach files by dragging and dropping them in the message box.',
-	'PLUPLOAD_ERR_INPUT'		=> 'Failed to open input stream.',
-	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Failed to move uploaded file.',
-	'PLUPLOAD_ERR_OUTPUT'		=> 'Failed to open output stream.',
-	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'File too large:',
-	'PLUPLOAD_ERR_FILE_COUNT'	=> 'File count error.',
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Invalid file extension:',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Runtime ran out of available memory.',
-	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Upload URL might be wrong or does not exist.',
-	'PLUPLOAD_EXTENSION_ERROR'	=> 'File extension error.',
-	'PLUPLOAD_FILE'				=> 'File: %s',
-	'PLUPLOAD_FILE_DETAILS'		=> 'File: %s, size: %d, max file size: %d',
-	'PLUPLOAD_FILENAME'			=> 'Filename',
-	'PLUPLOAD_FILES_QUEUED'		=> '%d files queued',
-	'PLUPLOAD_GENERIC_ERROR'	=> 'Generic error.',
-	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP error.',
-	'PLUPLOAD_IMAGE_FORMAT'		=> 'Image format either wrong or not supported.',
-	'PLUPLOAD_INIT_ERROR'		=> 'Init error.',
-	'PLUPLOAD_IO_ERROR'			=> 'IO error.',
-	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A',
-	'PLUPLOAD_SECURITY_ERROR'	=> 'Security error.',
-	'PLUPLOAD_SELECT_FILES'		=> 'Select files',
-	'PLUPLOAD_SIZE'				=> 'Size',
-	'PLUPLOAD_SIZE_ERROR'		=> 'File size error.',
-	'PLUPLOAD_STATUS'			=> 'Status',
-	'PLUPLOAD_START_UPLOAD'		=> 'Start upload',
-	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Start uploading queue',
-	'PLUPLOAD_STOP_UPLOAD'		=> 'Stop upload',
-	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Stop current upload',
-	// Note: This string is formatted independently by plupload and so does not
-	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> 'Uploaded %d/%d files',
+	'PLUPLOAD_ADD_FILES'	=> '파일 추가',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'=> '업로드 대기열에 파일을 추가하고 시작 버튼을 클릭하십시오.',
+	'PLUPLOAD_ALREADY_QUEUED'=> '%s은 이미 대기열에 있습니다.',
+	'PLUPLOAD_CLOSE'=> '닫기',
+	'PLUPLOAD_DRAG'=> '파일을 여기로 드래그하십시오.',
+	'PLUPLOAD_DUPLICATE_ERROR'=> '중복 된 파일 오류입니다.',
+	'PLUPLOAD_DRAG_TEXTAREA'=> '메시지 상자에 파일을 드래그 앤 드롭하여 첨부 할 수도 있습니다.',
+	'PLUPLOAD_ERR_INPUT'=> '입력 스트림을 열지 못했습니다.',
+	'PLUPLOAD_ERR_MOVE_UPLOADED'=> '업로드 한 파일을 옮기지 못했습니다.',
+	'PLUPLOAD_ERR_OUTPUT'=> '출력 스트림을 열지 못했습니다.',
+	'PLUPLOAD_ERR_FILE_TOO_LARGE'=> '파일이 너무 큽니다 :',
+	'PLUPLOAD_ERR_FILE_COUNT'=> '파일 수 오류.',
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'=> '잘못된 파일 확장자 :',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'=> '런타임에서 사용 가능한 메모리가 부족합니다.',
+	'PLUPLOAD_ERR_UPLOAD_URL'=> '업로드 URL이 잘못되었거나 존재하지 않습니다.',
+	'PLUPLOAD_EXTENSION_ERROR'=> '파일 확장자 오류.',
+	'PLUPLOAD_FILE'=> '파일 : %s',
+	'PLUPLOAD_FILE_DETAILS'=> '파일 : %s, 크기 : %d, 최대 파일 크기 : %d',
+	'PLUPLOAD_FILENAME'=> '파일 이름',
+	'PLUPLOAD_FILES_QUEUED'=> '%d 개 파일 대기 중',
+	'PLUPLOAD_GENERIC_ERROR'=> '일반적인 오류.',
+	'PLUPLOAD_HTTP_ERROR'=> 'HTTP 오류.',
+	'PLUPLOAD_IMAGE_FORMAT'=> '이미지 형식이 잘못되었거나 지원되지 않습니다.',
+	'PLUPLOAD_INIT_ERROR'=> '초기화 오류.',
+	'PLUPLOAD_IO_ERROR'=> 'IO 오류.',
+	'PLUPLOAD_NOT_APPLICABLE'=> '해당 사항 없음',
+	'PLUPLOAD_SECURITY_ERROR'=> '보안 오류.',
+	'PLUPLOAD_SELECT_FILES'=> '파일 선택',
+	'PLUPLOAD_SIZE'=> '크기',
+	'PLUPLOAD_SIZE_ERROR'=> '파일 크기 오류.',
+	'PLUPLOAD_STATUS'=> '상태',
+	'PLUPLOAD_START_UPLOAD'=> '업로드 시작',
+	'PLUPLOAD_START_CURRENT_UPLOAD'=> '업로드 대기열 시작',
+	'PLUPLOAD_STOP_UPLOAD'=> '업로드 중지',
+	'PLUPLOAD_STOP_CURRENT_UPLOAD'=> '현재 업로드 중지',
+// 참고 :이 문자열은 plupload에 의해 독립적으로 형식화되므로 너무 길지 않습니다.
+// 일반적인 phpBB 번역 문자열과 동일한 형식 지정 규칙을 사용합니다.
+	'PLUPLOAD_UPLOADED'=> '업로드 된 %d / %d 개의 파일',
 ));
