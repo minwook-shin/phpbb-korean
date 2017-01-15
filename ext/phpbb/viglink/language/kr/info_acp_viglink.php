@@ -6,6 +6,7 @@
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
+ * korean translation	2017~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
  */
 
 /**
@@ -38,6 +39,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'VigLink settings',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>VigLink settings could not be verified with phpBB.com</strong><br />» %s',
+	'ACP_VIGLINK_SETTINGS'		=> 'VigLink 세팅',
+	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>VigLink 세팅은 phpBB.com에서 확인되지 않았습니다.</strong><br />» %s',
 ));
