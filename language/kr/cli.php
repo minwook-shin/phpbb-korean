@@ -106,12 +106,12 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> '새 사용자의 전자 메일 주소',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> '새 사용자에게 계정 활성화 이메일 보내기 (기본적으로 전송되지 않음)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> '사용자 계정 삭제.',
-	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Username of the user to delete',
-	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Delete all posts by the user. Without this option, the user’s posts will be retained.',
-	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-clean usernames.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> '삭제할 사용자의 사용자 이름',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> '사용자가 모든 게시물을 삭제하십시오. 이 옵션을 사용하지 않으면 사용자의 소식이 유지됩니다.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> '사용자 이름을 다시 정리하십시오.',
 
-	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Could not disable extension %s',
-	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Successfully disabled extension %s',
+	'CLI_EXTENSION_DISABLE_FAILURE'		=> '확장 프로그램 %s 을 사용 중지 할 수 없습니다.',
+	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '확장 프로그램 %s 이 사용 중지되었습니다.',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Could not enable extension %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Successfully enabled extension %s',
 	'CLI_EXTENSION_NAME'				=> 'Name of the extension',
@@ -124,32 +124,32 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Disabled',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Enabled',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Successfully recalculated all email hashes.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> '모든 이메일 해시를 다시 계산했습니다.',
 
-	'CLI_MIGRATION_NAME'					=> 'Migration name, including the namespace (use forward slashes instead of backslashes to avoid problems).',
-	'CLI_MIGRATIONS_AVAILABLE'				=> 'Available migrations',
-	'CLI_MIGRATIONS_INSTALLED'				=> 'Installed migrations',
-	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Show only available migrations',
-	'CLI_MIGRATIONS_EMPTY'                  => 'No migrations.',
+	'CLI_MIGRATION_NAME'					=> '네임 스페이스를 포함한 마이그레이션 이름 (문제를 방지하기 위해 백 슬래시 대신 슬래시를 사용).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> '사용 가능한 마이그레이션',
+	'CLI_MIGRATIONS_INSTALLED'				=> '설치된 마이그레이션',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => '사용 가능한 마이그레이션만 표시',
+	'CLI_MIGRATIONS_EMPTY'                  => '마이그레이션이 없습니다.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reparsing %1$s (range %2$d..%3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reparsing %s...',
-	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Reparsing ended with success',
+	'CLI_REPARSER_REPARSE_REPARSING'		=> '재파싱 %1$s (범위 %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> '재파싱 %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> '재파싱이 성공으로 끝났습니다.',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
-	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) deleted.',
-	'CLI_THUMBNAIL_DELETING'	=> 'Deleting thumbnails',
-	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) skipped.',
-	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) generated.',
-	'CLI_THUMBNAIL_GENERATING'	=> 'Generating thumbnails',
-	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'All thumbnails have been regenerated.',
-	'CLI_THUMBNAIL_DELETING_DONE'	=> 'All thumbnails have been deleted.',
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) 삭제됨.',
+	'CLI_THUMBNAIL_DELETING'	=> 'thumbnails 삭제하는중',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) 넘어감.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) 생성됨.',
+	'CLI_THUMBNAIL_GENERATING'	=> 'thumbnails 생성하는중',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> '모든 미리보기 이미지가 재생성되었습니다.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> '모든 미리보기 이미지가 삭제되었습니다.',
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No thumbnails to generate.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No thumbnails to delete.',
 
-	'CLI_USER_ADD_SUCCESS'		=> 'Successfully added user %s.',
+	'CLI_USER_ADD_SUCCESS'		=> '사용자 %s 를 추가했습니다.',
 	'CLI_USER_DELETE_CONFIRM'	=> 'Are you sure you want to delete ‘%s’? [y/N]',
 	'CLI_USER_RECLEAN_START'	=> 'Re-cleaning usernames',
 	'CLI_USER_RECLEAN_DONE'		=> [
@@ -161,7 +161,7 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Optionally you can specify a cron task name to run only the specified cron task.',
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' 선택적으로 cron 작업 이름을 지정하여 지정된 cron 작업 만 실행할 수 있습니다.',
 	'CLI_HELP_USER_ACTIVATE'	=> '사용자 계정을 활성화하거나 <info> --deactivate </ info> 옵션을 사용하여 계정을 비활성화하십시오.
 선택적으로 활성화 이메일을 사용자에게 보내려면 <info> --send-email </ info> 옵션을 사용하십시오. ',
 	'CLI_HELP_USER_ADD'			=> '<info> %command.name% </ info> 명령은 새로운 사용자를 추가합니다 :
