@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'			=> '무시',
 	'IGNORED_TERMS_EXPLAIN'	=> '검색어가 너무 일반적인 단어이기 때문에 다음 단어가 무시되었습니다: <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> '글로 이동',
+	'JUMP_TO_POST'			=> '게시물로 이동',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> '게시판을 통해 자신의 게시물을 보려면 로그인하고 로그인해야합니다.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> '게시판에 읽지 않은 게시물을 보려면 등록하고 로그인해야합니다.',
@@ -114,8 +114,8 @@ $lang = array_merge($lang, array(
 	'SORT_AUTHOR'				=> '작성자',
 	'SORT_DESCENDING'			=> '내림차순',
 	'SORT_FORUM'				=> '포럼',
-	'SORT_POST_SUBJECT'			=> '글 제목',
-	'SORT_TIME'					=> '글 시간',
+	'SORT_POST_SUBJECT'			=> '게시물 제목',
+	'SORT_TIME'					=> '게시물 시간',
 	'SPHINX_SEARCH_FAILED'		=> '검색 실패: %s',
 	'SPHINX_SEARCH_FAILED_LOG'	=> '죄송합니다. 검색을 수행 할 수 없습니다. 이 실패에 대한 자세한 정보는 오류 로그에 기록됩니다.',
 

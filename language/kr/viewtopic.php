@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 
 	'UNLOCK_TOPIC'			=> '주제 잠금해제',
 
-	'VIEW_INFO'				=> '세부 글 게시',
+	'VIEW_INFO'				=> '세부 게시물 게시',
 	'VIEW_NEXT_TOPIC'		=> '다음 주제',
 	'VIEW_PREVIOUS_TOPIC'	=> '이전 주제',
 	'VIEW_RESULTS'			=> '결과 보기',
