@@ -75,12 +75,12 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> '죄송하지만 고정 주제는 게시 할 수 없습니다.',
 	'CHANGE_TOPIC_TO'			=> '주제 타입 변경',
 	'CHARS_POST_CONTAINS'		=> array(
-		1	=> 'Your message contains %1$d character.',
-		2	=> 'Your message contains %1$d characters.',
+		1	=> '메시지에 %1$d 자의 문자가 있습니다.',
+		2	=> '메시지에 %1$d 자의 문자가 있습니다.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
-		1	=> 'Your signature contains %1$d character.',
-		2	=> 'Your signature contains %1$d characters.',
+		1	=> '서명에 %1$d 자의 문자가 있습니다.',
+		2	=> '서명에 %1$d 자의 문자가 있습니다.',
 	),
 	'CLOSE_TAGS'				=> 'Close tags',
 	'CURRENT_TOPIC'				=> 'Current topic',
