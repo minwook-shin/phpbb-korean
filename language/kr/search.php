@@ -10,6 +10,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
+* korean translation	2017~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 */
 
 /**
@@ -38,10 +39,10 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'All available',
-	'ALL_RESULTS'			=> 'All results',
+	'ALL_AVAILABLE'			=> '사용가능한 모든 것',
+	'ALL_RESULTS'			=> '모든 결과',
 
-	'DISPLAY_RESULTS'		=> 'Display results as',
+	'DISPLAY_RESULTS'		=> '결과 표시 형식',
 
 	'FOUND_SEARCH_MATCHES'		=> array(
 		1	=> 'Search found %d match',
@@ -52,20 +53,20 @@ $lang = array_merge($lang, array(
 		2	=> 'Search found more than %d matches',
 	),
 
-	'GLOBAL'				=> 'Global announcement',
+	'GLOBAL'				=> '전체 공지',
 
-	'IGNORED_TERMS'			=> 'ignored',
-	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored because they are too common words: <strong>%s</strong>.',
+	'IGNORED_TERMS'			=> '무시',
+	'IGNORED_TERMS_EXPLAIN'	=> '검색어가 너무 일반적인 단어이기 때문에 다음 단어가 무시되었습니다: <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> 'Jump to post',
+	'JUMP_TO_POST'			=> '글로 이동',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'The board requires you to be registered and logged in to view your own posts.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'The board requires you to be registered and logged in to view your unread posts.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'The board requires you to be registered and logged in to view new posts since your last visit.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> '게시판을 통해 자신의 게시물을 보려면 로그인하고 로그인해야합니다.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> '게시판에 읽지 않은 게시물을 보려면 등록하고 로그인해야합니다.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> '게시판에 마지막으로 방문한 이후 새 게시물을 보려면 등록하고 로그인해야합니다.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
-		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+		1	=> '검색 할 단어가 너무 많습니다. %1$d 단어를 초과하여 입력하지 마십시오.',
+		2	=> '검색 할 단어가 너무 많습니다. %1$d 단어를 초과하여 입력하지 마십시오.',
 	),
 
 	'NO_KEYWORDS'			=> 'You must specify at least one word to search for. Each word must consist of at least %s and must not contain more than %s excluding wildcards.',
