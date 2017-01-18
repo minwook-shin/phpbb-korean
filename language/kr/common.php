@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> '참여됨',
 	'JUMP_PAGE'				=> '당신이 이동하고자하는 페이지 번호를 입력합니다',
-	'JUMP_TO'				=> '로 이동',
+	'JUMP_TO'				=> '이동',
 	'JUMP_TO_PAGE'			=> '페이지로 이동',
 	'JUMP_TO_PAGE_CLICK'	=> '페이지로 이동합니다…',
 
