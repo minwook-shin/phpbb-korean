@@ -162,10 +162,10 @@ $lang = array_merge($lang, array(
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' 선택적으로 cron 작업 이름을 지정하여 지정된 cron 작업 만 실행할 수 있습니다.',
-	'CLI_HELP_USER_ACTIVATE'	=> '사용자 계정을 활성화하거나 <info> --deactivate </ info> 옵션을 사용하여 계정을 비활성화하십시오.
-선택적으로 활성화 이메일을 사용자에게 보내려면 <info> --send-email </ info> 옵션을 사용하십시오. ',
-	'CLI_HELP_USER_ADD'			=> '<info> %command.name% </ info> 명령은 새로운 사용자를 추가합니다 :
+	'CLI_HELP_USER_ACTIVATE'	=> '사용자 계정을 활성화하거나 <info> --deactivate </info> 옵션을 사용하여 계정을 비활성화하십시오.
+선택적으로 활성화 이메일을 사용자에게 보내려면 <info> --send-email </info> 옵션을 사용하십시오. ',
+	'CLI_HELP_USER_ADD'			=> '<info> %command.name% </info> 명령은 새로운 사용자를 추가합니다 :
 이 명령을 옵션없이 실행하면 명령을 입력하라는 메시지가 표시됩니다.
-선택적으로 새 사용자에게 전자 메일을 보내려면 <info>--send-email</ info> 옵션을 사용하십시오.',
+선택적으로 새 사용자에게 전자 메일을 보내려면 <info>--send-email</info> 옵션을 사용하십시오.',
 	'CLI_HELP_USER_RECLEAN'		=> '사용자 이름을 다시 정리하면 저장된 모든 사용자 이름을 검사하고 깨끗한 버전도 저장됩니다. 정리된 사용자 이름은 대소 문자를 구분하지 않으며 NFC는 정규화되어 ASCII로 변환됩니다. ',
 ));
