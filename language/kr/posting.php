@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_LISTITEM_HELP'		=> '리스트 아이템: [*]텍스트',
 	'BBCODE_O_HELP'				=> '순서 지정 목록: e.g. [list=1][*]First point[/list] or [list=a][*]Point a[/list]',
 	'BBCODE_P_HELP'				=> '그림 삽입: [img]http://image_url[/img]',
-	'BBCODE_Q_HELP'				=> '글 인용: [quote]텍스트[/quote]',
+	'BBCODE_Q_HELP'				=> '게시물 인용: [quote]텍스트[/quote]',
 	'BBCODE_S_HELP'				=> '폰트 색: [color=red]텍스트[/color] or [color=#FF0000]텍스트[/color]',
 	'BBCODE_U_HELP'				=> '밑줄 텍스트: [u]텍스트[/u]',
 	'BBCODE_W_HELP'				=> 'URL 삽입: [url]http://url[/url] or [url=http://url]URL 텍스트[/url]',
