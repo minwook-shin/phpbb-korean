@@ -2,10 +2,10 @@
 
 PHPBB 3.2.x Korean Language Pack (Verified version : 3.2.0)
 
-translation 2017 ~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
+Translation 2017 ~ minwook shin @ https://github.com/minwook-shin/phpbb-korean
 
 # Translate licenses
-translation by @ 2017 ~ minwook shin
+Translation by @ 2017 ~ minwook shin
 
 GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
 * follows licensing of the platform.
@@ -20,7 +20,10 @@ GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
 
 Development here: https://github.com/minwook-shin/phpbb-korean 
 
-Admin panel("\ACP\*.php" , "install.php") is English only!
+Admin panel("language/kr/ACP/*.php" , "install.php") is English only!
+Help page("language/kr/help/*.php") is English only!
 
-### 3.1.x download
+
+----------
+### 3.1.x download branch(End of support)
 [link here](https://github.com/minwook-shin/phpbb-korean/tree/old.ver)
