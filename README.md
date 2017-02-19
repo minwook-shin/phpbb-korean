@@ -18,10 +18,9 @@ GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
 
 # [PHPBB3.2.x Korean Language Pack Introduce]
 
-Development here: https://github.com/minwook-shin/phpbb-korean 
+Development here: https://github.com/minwook-shin/phpbb-korean
 
 Admin panel("language/kr/ACP/*.php" , "install.php") is English only!
-Help page("language/kr/help/*.php") is English only!
 
 
 ----------
