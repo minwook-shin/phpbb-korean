@@ -16,7 +16,7 @@ GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
 * @license GNU General Public License, version 2 (GPL-2.0)
 
 
-# [PHPBB3.2.x Korean Language Pack Introduce]
+# Introduce
 
 Development here: https://github.com/minwook-shin/phpbb-korean
 
