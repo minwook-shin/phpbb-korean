@@ -15,14 +15,6 @@ GPL (GNU General Public License) 2.0 http://www.fsf.org/licenses/gpl.html
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 
-
-# Introduce
-
-https://github.com/minwook-shin/phpbb-korean
-
-Admin panel("language/kr/ACP/*.php" , "install.php") is English only!
-
-
 ----------
 ### 3.1.x download branch(End of support)
 [link here](https://github.com/minwook-shin/phpbb-korean/tree/old.ver)
