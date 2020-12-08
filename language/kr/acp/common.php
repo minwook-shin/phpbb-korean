@@ -1,8 +1,7 @@
 <?php
 /**
 *
-* This file is part of the American English Language Pack
-* for the phpBB Forum Software.
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -62,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Customize',
+	'ACP_CAT_CUSTOMISE'			=> 'Customise',
 	'ACP_CAT_DATABASE'			=> 'Database',
 	'ACP_CAT_DOT_MODS'			=> 'Extensions',
 	'ACP_CAT_FORUMS'			=> 'Forums',
@@ -227,25 +226,16 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Back',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Unable to change file group',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Unable to change file permissions',
-	'CANNOT_COPY_FILES'		=> 'Unable to copy files',
-	'CANNOT_CREATE_SYMLINK'	=> 'Unable to create a symlink',
-	'CANNOT_DELETE_FILES'	=> 'Unable to delete files from the system',
-	'CANNOT_DUMP_FILE'		=> 'Unable to dump file',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Unable to mirror directory',
-	'CANNOT_RENAME_FILE'	=> 'Unable to rename a file from the system',
-	'CANNOT_TOUCH_FILES'	=> 'Unable to determine if the file exists',
-
 	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
 	'EXCEPTION' => 'Exception',
 
-	'COLOUR_SWATCH'			=> 'Web-safe color swatch',
+	'COLOUR_SWATCH'			=> 'Web-safe colour swatch',
 	'CONFIG_UPDATED'		=> 'Configuration updated successfully.',
 	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.',
 	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.',
 	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
 	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
+	'CSV_INVALID'			=> 'The provided comma-separated setting “%1$s” is invalid. The values should be delimited by comma only, it should not contain any leading or trailing delimiters.',
 	'CURRENT_VERSION'		=> 'Current version',
 
 	'DEACTIVATE'				=> 'Deactivate',
@@ -290,7 +280,7 @@ $lang = array_merge($lang, array(
 	'MOVE_UP'				=> 'Move up',
 
 	'NOTIFY'				=> 'Notification',
-	'NO_ADMIN'				=> 'You are not authorized to administer this board.',
+	'NO_ADMIN'				=> 'You are not authorised to administer this board.',
 	'NO_EMAILS_DEFINED'		=> 'No valid email addresses found.',
 	'NO_FILES_TO_DELETE'	=> 'Attachments you selected for deletion do not exist.',
 	'NO_PASSWORD_SUPPLIED'	=> 'You need to enter your password to access the Administration Control Panel.',
@@ -308,7 +298,7 @@ $lang = array_merge($lang, array(
 	'RELEASE_ANNOUNCEMENT'		=> 'Announcement',
 	'REMIND'							=> 'Remind',
 	'REPARSE_LOCK_ERROR'				=> 'Reparsing is already in progress by another process.',
-	'RESYNC'							=> 'Resynchronize',
+	'RESYNC'							=> 'Resynchronise',
 
 	'RUNNING_TASK'			=> 'Running task: %s.',
 	'SELECT_ANONYMOUS'		=> 'Select anonymous user',
@@ -326,6 +316,8 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'Total size',
 
 	'UCP'					=> 'User Control Panel',
+	'URL_INVALID'			=> 'The provided URL for the setting “%1$s” is invalid.',
+	'URL_SCHEME_INVALID'	=> 'The provided scheme “%2$s” in comma-separated setting “%1$s” is invalid. Scheme should start with a latin character followed by alphanumeric characters, hyphens or dots.',
 	'USERNAMES_EXPLAIN'		=> 'Place each username on a separate line.',
 	'USER_CONTROL_PANEL'	=> 'User Control Panel',
 
@@ -373,7 +365,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'Database server',
 	'DATABASE_SIZE'			=> 'Database size',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Function overloading is improperly configured',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> must be set to either 0 or 4. You can check the current value on the <samp>PHP information</samp> page.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding is improperly configured',
@@ -396,7 +388,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Number of users',
 	'NUMBER_ORPHAN'		=> 'Orphan attachments',
 
-	'PHP_VERSION_OLD'	=> 'The version of PHP on this server will no longer be supported by future versions of phpBB. %sDetails%s',
+	'PHP_VERSION'		=> 'PHP version',
+	'PHP_VERSION_OLD'	=> 'The version of PHP on this server (%1$s) will no longer be supported by future versions of phpBB. The minimum required version will be PHP %2$s. %3$sDetails%4$s',
 
 	'POSTS_PER_DAY'		=> 'Posts per day',
 
@@ -416,22 +409,22 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'Reset most users ever online',
 	'RESET_ONLINE_CONFIRM'			=> 'Are you sure you wish to reset the most users ever online counter?',
 	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset',
-	'RESYNC_POSTCOUNTS'				=> 'Resynchronize post counts',
+	'RESYNC_POSTCOUNTS'				=> 'Resynchronise post counts',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Only existing posts will be taken into consideration. Pruned posts will not be counted.',
-	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Are you sure you wish to resynchronize post counts?',
-	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Resynchronized post counts',
-	'RESYNC_POST_MARKING'			=> 'Resynchronize dotted topics',
-	'RESYNC_POST_MARKING_CONFIRM'	=> 'Are you sure you wish to resynchronize dotted topics?',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Are you sure you wish to resynchronise post counts?',
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Resynchronised post counts',
+	'RESYNC_POST_MARKING'			=> 'Resynchronise dotted topics',
+	'RESYNC_POST_MARKING_CONFIRM'	=> 'Are you sure you wish to resynchronise dotted topics?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'First unmarks all topics and then correctly marks topics that have seen any activity during the past six months.',
-	'RESYNC_POST_MARKING_SUCCESS'	=> 'Resynchronized dotted topics',
-	'RESYNC_STATS'					=> 'Resynchronize statistics',
-	'RESYNC_STATS_CONFIRM'			=> 'Are you sure you wish to resynchronize statistics?',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'Resynchronised dotted topics',
+	'RESYNC_STATS'					=> 'Resynchronise statistics',
+	'RESYNC_STATS_CONFIRM'			=> 'Are you sure you wish to resynchronise statistics?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Recalculates the total number of posts, topics, users and files.',
-	'RESYNC_STATS_SUCCESS'			=> 'Resynchronized statistics',
+	'RESYNC_STATS_SUCCESS'			=> 'Resynchronised statistics',
 	'RUN'							=> 'Run now',
 
 	'STATISTIC'					=> 'Statistic',
-	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronize or reset statistics',
+	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronise or reset statistics',
 
 	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.',
 	'TIMEZONE_SELECTED'	=> '(currently selected)',
@@ -440,16 +433,19 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'Size of posted attachments',
 	'USERS_PER_DAY'		=> 'Users per day',
 
-	'VALUE'						=> 'Value',
-	'VERSIONCHECK_FAIL'			=> 'Failed to obtain latest version information.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Re-Check version',
-	'VERSION_CHECK'				=> 'Version check',
-	'VERSION_CHECK_EXPLAIN'		=> 'Checks to see if your phpBB installation is up to date.',
+	'VALUE'							=> 'Value',
+	'VERSIONCHECK_FAIL'				=> 'Failed to obtain latest version information.',
+	'VERSIONCHECK_FORCE_UPDATE'		=> 'Re-Check version',
+	'VERSION_CHECK'					=> 'Version check',
+	'VERSION_CHECK_EXPLAIN'			=> 'Checks to see if your phpBB installation is up to date.',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Latest version information contains an unsupported entry.',
+	'VERSIONCHECK_INVALID_URL'		=> 'Latest version information contains invalid URL.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Latest version information contains an invalid version.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Your phpBB installation is not up to date.<br />Below is a link to the release announcement, which contains more information as well as instructions on updating.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Your phpBB installation is not up to date.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Your phpBB installation is up to date. There are no updates available at this time.',
-	'VIEW_ADMIN_LOG'			=> 'View administrator log',
-	'VIEW_INACTIVE_USERS'		=> 'View inactive users',
+	'VERSION_UP_TO_DATE_ACP'		=> 'Your phpBB installation is up to date. There are no updates available at this time.',
+	'VIEW_ADMIN_LOG'				=> 'View administrator log',
+	'VIEW_INACTIVE_USERS'			=> 'View inactive users',
 
 	'WELCOME_PHPBB'			=> 'Welcome to phpBB',
 	'WRITABLE_CONFIG'		=> 'Your config file (config.php) is currently world-writable. We strongly encourage you to change the permissions to 640 or at least to 644 (for example: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
@@ -506,13 +502,13 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Added or edited Administrators</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Added or edited Global Moderators</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Added or edited users’ forum access</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Added or edited users’ forum moderator access</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Added or edited groups’ forum access</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Added or edited groups’ forum moderator access</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Added or edited users’ forum access</strong> to %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Added or edited users’ forum moderator access</strong> to %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Added or edited groups’ forum access</strong> to %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Added or edited groups’ forum moderator access</strong> to %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Added or edited Moderators</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Added or edited forum permissions</strong> from %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Added or edited Moderators</strong> for %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Added or edited forum permissions</strong> for %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Removed Administrators</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Removed Global Moderators</strong><br />» %s',
@@ -549,6 +545,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_ADD'		=> '<strong>Added new BBCode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>Edited BBCode</strong><br />» %s',
 	'LOG_BBCODE_DELETE'		=> '<strong>Deleted BBCode</strong><br />» %s',
+	'LOG_BBCODE_CONFIGURATION_ERROR'	=> '<strong>Error while configuring BBCode</strong>: %1$s<br />» %2$s',
 
 	'LOG_BOT_ADDED'		=> '<strong>New bot added</strong><br />» %s',
 	'LOG_BOT_DELETE'	=> '<strong>Deleted bot</strong><br />» %s',
@@ -606,7 +603,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_APPROVED'		=> '<strong>Approved topic</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Restored topic</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Disapproved topic “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s',
-	'LOG_TOPIC_RESYNC'			=> '<strong>Resynchronized topic counters</strong><br />» %s',
+	'LOG_TOPIC_RESYNC'			=> '<strong>Resynchronised topic counters</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Changed topic type</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Unlocked topic</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Unlocked post</strong><br />» %s',
@@ -640,7 +637,7 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_EDIT'						=> '<strong>Edited forum details</strong><br />» %s',
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Moved forum</strong> %1$s <strong>below</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Moved forum</strong> %1$s <strong>above</strong> %2$s',
-	'LOG_FORUM_SYNC'						=> '<strong>Re-synchronized forum</strong><br />» %s',
+	'LOG_FORUM_SYNC'						=> '<strong>Re-synchronised forum</strong><br />» %s',
 
 	'LOG_GENERAL_ERROR'	=> '<strong>A general error occurred</strong>: %1$s <br />» %2$s',
 
@@ -731,10 +728,10 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Referrer validation failed</strong><br />»Referrer was “<em>%1$s</em>”. The request was rejected and the session killed.',
 	'LOG_RESET_DATE'			=> '<strong>Board start date reset</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Most users online reset</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '<strong>File statistics resynchronized</strong>',
-	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>User post counts resynchronized</strong>',
-	'LOG_RESYNC_POST_MARKING'	=> '<strong>Dotted topics resynchronized</strong>',
-	'LOG_RESYNC_STATS'			=> '<strong>Post, topic and user statistics resynchronized</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>File statistics resynchronised</strong>',
+	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>User post counts resynchronised</strong>',
+	'LOG_RESYNC_POST_MARKING'	=> '<strong>Dotted topics resynchronised</strong>',
+	'LOG_RESYNC_STATS'			=> '<strong>Post, topic and user statistics resynchronised</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Created search index for</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Removed search index for</strong><br />» %s',

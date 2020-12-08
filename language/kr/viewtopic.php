@@ -51,8 +51,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> '%2$s 에서 %1$s 에 마지막으로 충돌했습니다.',
 	'BUMP_TOPIC'			=> '범프 주제',
 
-	'CODE'					=> '코드',
-
 	'DELETE_TOPIC'			=> '주제 삭제',
 	'DELETED_INFORMATION'	=> '%2$s 에서 %1$s 에 의해 삭제되었습니다.',
 	'DISAPPROVE'					=> '비승인',
@@ -90,6 +88,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> '이 주제에 대한 새로운 읽지 않은 게시물이 없습니다.',
 	'NO_VOTE_OPTION'		=> '투표 할 때 옵션을 지정해야합니다.',
 	'NO_VOTES'				=> '투표 없음',
+	'NO_AUTH_PRINT_TOPIC'	=> '주제를 인쇄 할 권한이 없습니다.',
 
 	'POLL_ENDED_AT'			=> '%s 까지 투표 끝내기',
 	'POLL_RUN_TILL'			=> '%s 까지 계속 투표',
@@ -99,7 +98,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> '빠른-모드 도구',
 	'QUICKREPLY'			=> '빠른 댓글',
-	'QUOTE'					=> '인용',
 
 	'REPLY_TO_TOPIC'		=> '주제에 리플 달기',
 	'RESTORE'				=> '복구',

@@ -56,6 +56,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'		=> '새로운 글 없음 [ 인기있는 ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> '새로운 글 없음 [ 잠김 ]',	// Not used anymore
 	'NO_READ_ACCESS'		=> '이 포럼에서 주제를 읽는 데 필요한 권한이 없습니다.',
+	'NO_FORUMS_IN_CATEGORY'	=> '이 카테고리에는 포럼이 없습니다.',
 	'NO_UNREAD_POSTS_HOT'		=> '읽지 않은 글 없음 [ 인기있는 ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> '읽지 않은 글 없음 [ 잠김 ]',
 

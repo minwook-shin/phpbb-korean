@@ -1,4 +1,4 @@
-Subject: 비공개 메시지 보고서 - "{TOPIC_TITLE}"
+Subject: 비공개 메시지 보고서 - "{SUBJECT}"
 
 {USERNAME} 님, 안녕하세요.
 

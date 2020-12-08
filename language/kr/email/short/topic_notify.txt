@@ -2,7 +2,7 @@ Subject: 주제 답장 알림 - "{TOPIC_TITLE}"
 
 {USERNAME} 님, 안녕하세요.
 
-'{SITENAME}'에서 '{TOPIC_TITLE}'주제를보고 있으므로 이 알림이 전송됩니다. 마지막 주제 방문 이후 {AUTHOR_NAME} <! - ENDIF -> 님이 <! - IF AUTHOR_NAME! = ''-> 답장을 받았습니다. 다음 링크를 사용하여 작성된 답장을 볼 수 있습니다. 주제를 방문 할 때까지 더 이상 알림이 전송되지 않습니다.
+'{SITENAME}'에서 '{TOPIC_TITLE}'주제를보고 있으므로 이 알림이 전송됩니다. 이 주제는 마지막 방문 이후<!-- IF AUTHOR_NAME != '' --> 으로 {AUTHOR_NAME}<!-- ENDIF --> IF < 주제를 방문 할 때까지 더 이상 알림이 전송되지 않습니다.
 
 마지막 방문 이후에 작성된 최신 소식을 보려면 다음 링크를 클릭하십시오.
 {U_NEWEST_POST}

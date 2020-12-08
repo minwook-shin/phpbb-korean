@@ -1,8 +1,7 @@
 <?php
 /**
 *
-* This file is part of the American English Language Pack
-* for the phpBB Forum Software.
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -56,8 +55,8 @@ $lang = array_merge($lang, array(
 	'GROUP_AVATAR_EXPLAIN'			=> 'This image will be displayed in the Group Control Panel.',
 	'GROUP_CATEGORY_NAME'			=> 'Category name',
 	'GROUP_CLOSED'					=> 'Closed',
-	'GROUP_COLOR'					=> 'Group color',
-	'GROUP_COLOR_EXPLAIN'			=> 'Defines the color members’ usernames will appear in, leave blank for user default.',
+	'GROUP_COLOR'					=> 'Group colour',
+	'GROUP_COLOR_EXPLAIN'			=> 'Defines the colour members’ usernames will appear in, leave blank for user default.',
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
 		1	=> 'Are you sure that you want to add the user %2$s to the group?',
 		2	=> 'Are you sure that you want to add the users %2$s to the group?',
@@ -70,7 +69,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DEMOTE'					=> 'Demote group leader',
 	'GROUP_DESC'					=> 'Group description',
 	'GROUP_DETAILS'					=> 'Group details',
-	'GROUP_EDIT_EXPLAIN'			=> 'Here you can edit an existing group. You can change its name, description and type (open, closed, etc.). You can also set certain group wide options such as coloration, rank, etc. Changes made here override users’ current settings. Please note that group members can override group-avatar settings, unless you set appropriate user permissions.',
+	'GROUP_EDIT_EXPLAIN'			=> 'Here you can edit an existing group. You can change its name, description and type (open, closed, etc.). You can also set certain group wide options such as colouration, rank, etc. Changes made here override users’ current settings. Please note that group members can override group-avatar settings, unless you set appropriate user permissions.',
 	'GROUP_ERR_USERS_EXIST'			=> 'The specified users are already members of this group.',
 	'GROUP_FOUNDER_MANAGE'			=> 'Founder manage only',
 	'GROUP_FOUNDER_MANAGE_EXPLAIN'	=> 'Restrict management of this group to founders only. Users having group permissions are still able to see this group as well as this group’s members.',
@@ -93,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GROUP_OPEN'					=> 'Open',
 	'GROUP_PENDING'					=> 'Pending members',
 	'GROUP_MAX_RECIPIENTS'			=> 'Maximum number of allowed recipients per private message',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'The maximum number of allowed recipients in a private message.  The maximum for all groups of the user is used to determine the actual value.<br />Set this value to 0 to overwrite the setting for all users of this group with the board-wide setting.',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'The maximum number of allowed recipients in a private message. The maximum for all groups of the user is used to determine the actual value.<br />Set this value to 0 to overwrite the setting for all users of this group with the board-wide setting.',
 	'GROUP_OPTIONS_SAVE'			=> 'Group wide options',
 	'GROUP_PROMOTE'					=> 'Promote to group leader',
 	'GROUP_RANK'					=> 'Group rank',
@@ -112,6 +111,7 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_ADDED'				=> 'New users added to group successfully.',
 	'GROUP_USERS_EXIST'				=> 'The selected users are already members.',
 	'GROUP_USERS_REMOVE'			=> 'Users removed from group and new defaults set successfully.',
+	'GROUP_USERS_INVALID'			=> 'No users were added to the group as the following usernames do not exist: %s',
 
 	'LEGEND_EXPLAIN'				=> 'These are the groups which are displayed in the group legend:',
 	'LEGEND_SETTINGS'				=> 'Legend settings',

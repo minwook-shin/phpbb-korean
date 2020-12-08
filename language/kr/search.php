@@ -79,8 +79,8 @@ $lang = array_merge($lang, array(
 		2	=> '죄송합니다만 지금은 검색을 사용할 수 없습니다. %d 초 후에 다시 시도하십시오.',
 	),
 	'NO_SEARCH_UNREADS'		=> '죄송하지만 읽지 않은 게시물을 검색하는 기능이 게시판에서 사용 중지되었습니다.',
-	'WORD_IN_NO_POST'		=> '<strong> %s 이라는 단어가 게시물에 포함되어 있지 않아 게시물을 찾을 수 없습니다.',
-	'WORDS_IN_NO_POST'		=> '<strong> %s </strong>이라는 단어가 게시물에 포함되어 있지 않아 게시물을 찾을 수 없습니다.',
+	'WORD_IN_NO_POST'		=> '<strong>%s</strong> 이라는 단어가 게시물에 포함되어 있지 않아 게시물을 찾을 수 없습니다.',
+	'WORDS_IN_NO_POST'		=> '<strong>%s</strong> 이라는 단어가 게시물에 포함되어 있지 않아 게시물을 찾을 수 없습니다.',
 
 	'POST_CHARACTERS'		=> '게시물의 문자',
 	'PHRASE_SEARCH_DISABLED'	=> '정확한 구로 검색하는 것은 이 보드에서 지원되지 않습니다.',
@@ -89,6 +89,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> '결과를 이전으로 제한',
 	'RESULT_SORT'			=> '결과 정렬 기준',
 	'RETURN_FIRST'			=> '처음으로 돌아가기',
+	'RETURN_FIRST_EXPLAIN'	=> '전체 게시물을 표시하려면 0으로 설정하십시오.',
 	'GO_TO_SEARCH_ADV'	=> '고급 검색으로 이동',
 
 	'SEARCHED_FOR'				=> '사용된 검색어',

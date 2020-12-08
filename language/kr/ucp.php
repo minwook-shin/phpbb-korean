@@ -40,23 +40,23 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> '“%1$s” (이하 “우리” 또는 “%1$s”, “%2$s”)에 접속하려면 당신은 아래 규칙에 대해 법적으로 동의해야 합니다. 만일 아래의 모든 규칙에 동의하지 않는다면 “%1$s”에 접속하거나 이용하지 마십시오. 우리는 언제든지 이 규칙을 바꿀 수 있고, 당신에게 최대한의 정보를 알릴 것입니다. 그렇더라도 개정한 것을 스스로 신중하게 살펴보아야 합니다. 바뀐 후에 “%1$s”을 계속 이용하는 것은 업데이트 또는 수정한 이 규칙에 법적으로 동의한 것으로 간주합니다.<br />
-	<br />
-	당신이 본 포럼에 쓰이거나 올려지는 모든 글과 파일의 권한은 “<a href="http://www.gnu.org/licenses/gpl.html">General Public License</a>” (이하 “GPL”) 로 귀속됩니다.<br />
-	<br />
+	'TERMS_OF_USE_CONTENT'	=> '“%1$s” (이하 “우리” 또는 “%1$s”, “%2$s”)에 접속하려면 당신은 아래 규칙에 대해 법적으로 동의해야 합니다. 만일 아래의 모든 규칙에 동의하지 않는다면 “%1$s”에 접속하거나 이용하지 마십시오. 우리는 언제든지 이 규칙을 바꿀 수 있고, 당신에게 최대한의 정보를 알릴 것입니다. 그렇더라도 개정한 것을 스스로 신중하게 살펴보아야 합니다. 바뀐 후에 “%1$s”을 계속 이용하는 것은 업데이트 또는 수정한 이 규칙에 법적으로 동의한 것으로 간주합니다.
+	<br><br>
+	당신이 본 포럼에 쓰이거나 올려지는 모든 글과 파일의 권한은 “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (이하 “GPL”) 로 귀속됩니다.
+	<br><br>
 	당신은 많은 이에게 혐오스럽거나 모욕적인 내용, 협박이나 명예훼손 등 현행법에 저촉되는 어떠한 글도 올리지 않는 것에 동의합니다. 여기서 현행법은 “%1$s” 포럼이 호스팅 되는 나라의 현행법과 국제법입니다. 만일 그런 글을 올린다면 당신은 즉시, 그리고 영원히 추방될 것이고 우리가 필요하다고 판단하면 당신의 인터넷 서비스 제공자에게 통보할 것입니다. 이런 작업을 위해 모든 글의 ip 주소가 기록됩니다.
-	</Br>당신은 “%1$s” 포럼에게 우리가 필요하다고 판단할때 언제든지 당신의 글타래를 고치거나 옮김, 잠금, 지울 수 있는 권한이 있다는 것에 동의합니다. 당신은 유저으로서 당신이 입력한 어떤 정보라도 데이터베이스에 저장되는 것에 동의합니다. 이 정보는 당신의 동의를 받지 않은 어떤 제3자에게 드러나지 않지만, 데이터를 위태롭게 하는 어떤 해킹 시도에 대해 “%1$s”은(는) 책임지지 않습니다.
+	<br>당신은 “%1$s” 포럼에게 우리가 필요하다고 판단할때 언제든지 당신의 글타래를 고치거나 옮김, 잠금, 지울 수 있는 권한이 있다는 것에 동의합니다. 당신은 유저으로서 당신이 입력한 어떤 정보라도 데이터베이스에 저장되는 것에 동의합니다. 이 정보는 당신의 동의를 받지 않은 어떤 제3자에게 드러나지 않지만, 데이터를 위태롭게 하는 어떤 해킹 시도에 대해 “%1$s”은(는) 책임지지 않습니다.
 	',
 
-	'PRIVACY_POLICY'		=> '이 정책은 “%1$s” 포럼 및 그와 관련 있는 회사 (이하 “우리” 또는 “%1$s”, “%2$s”)와 phpBB (이하 “그” 또는 “그들”, “그곳”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”)를 당신이 이용하는 동안 모은 정보 (이하 “당신의 정보”)를 사용하는 것에 대한 세부사항을 설명합니다.<br />
-	<br />
-	당신의 정보는 두가지 방법을 통해 모아집니다. 첫번째는 “%1$s” 포럼을 살펴보는 동안 phpBB software 가 만든 쿠키 (당신 컴퓨터의 웹 브라우저 임시파일에 저장되는 작은 text 파일)를 이용하는 것입니다. 처음 두개의 쿠키에는 phpBB software 에 의해 자동으로 정해지는 유저 식별자 (이하 “user-id”)와 익명 세션 식별자 (이하 “session-id”)가 들어있습니다. 세번째 쿠키는 당신이 “%1$s” 포럼의 글타래를 살펴볼 때 만들어지고, 당신의 경험치를 개선해 글타래를 읽었다는 것을 저장합니다.<br />
-	<br />
-	우리는 “%1$s” 포럼을 살펴보는 동안 phpBB software 외부의 쿠키를 만들 수도 있습니다. 하지만 이것은 phpBB software 로 만든 페이지를 커버하도록 고안된 이 도큐멘트의 범위 밖에 있습니다. 두번째 방법은 당신이 우리에게 보내주는 정보를 모으는 것입니다. 이것은 다음에 제한 없이 할 수 있습니다: 익명 유저가 올린 글 (이하 “익명 글”)과 “%1$s” 포럼에 가입한 것 (이하 “당신의 계정”), 가입한 후 로그인 해서 당신이 올린 글 (이하 “당신의 글”)<br />
-	<br />
-	당신의 계정은 적어도 유일하게 식별되는 이름 (이하 “당신의 아이디”)과 당신의 계정으로 로그인 하기 위한 개인 비밀번호 (이하 “당신의 비밀번호”), 유효한 e-메일 주소 (이하 “당신의 e-메일”)를 담고 있습니다. “%1$s” 포럼에 있는 당신의 계정에 대한 당신의 정보는 우리가 호스팅 하는 나라에서 적용 가능한 자료보호법률의 보호를 받습니다. 당신의 아이디와 당신의 비밀번호, 당신의 e-메일 이외에 “%1$s” 포럼 가입 때 요구되는 어떤 정보도 강제 또는 선택에 상관없이 여분입니다. 모든 경우에 있어 당신의 계정 정보를 공개하는 것을 선택할 수 있습니다. 게다가 당신은 당신의 계정 안에서 phpBB software 로부터 오는 자동으로 만들어진 e-메일의 옵트인/옵트아웃(opt-in or opt-out)을 선택할 수 있습니다.<br />
-	<br />
-	당신의 비밀번호는 보안을 위해 비밀번호화 (a one-way hash) 됩니다. 어쨌든 다른 웹사이트와 같은 비밀번호를 사용하지 않기를 권합니다. 당신의 비밀번호는 “%1$s” 포럼에 있는 당신의 계정에 접근할 수 있다는 것을 뜻합니다. 그러니 그것을 조심스럽게 관리하고 “%1$s” 포럼과 관련된 이 및 phpBB, 제 3자가 당신에게 정당하게 당신의 비밀번호를 물어보면 주의를 기울이세요. 당신이 당신의 계정에 대한 당신의 비밀번호를 잊었다면 phpBB software 가 제공하는 “비밀번호 찾기” 기능을 이용하세요. 이 절차는 당신이 보내준 당신의 아이디와 당신의 e-메일을 물어본 후 phpBB software 가 당신의 계정을 되살릴 새 비밀번호를 만들게 됩니다.<br />
+	'PRIVACY_POLICY'		=> '이 정책은 “%1$s” 포럼 및 그와 관련 있는 회사 (이하 “우리” 또는 “%1$s”, “%2$s”)와 phpBB (이하 “그” 또는 “그들”, “그곳”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”)를 당신이 이용하는 동안 모은 정보 (이하 “당신의 정보”)를 사용하는 것에 대한 세부사항을 설명합니다.<br>
+	<br>
+	당신의 정보는 두가지 방법을 통해 모아집니다. 첫번째는 “%1$s” 포럼을 살펴보는 동안 phpBB software 가 만든 쿠키 (당신 컴퓨터의 웹 브라우저 임시파일에 저장되는 작은 text 파일)를 이용하는 것입니다. 처음 두개의 쿠키에는 phpBB software 에 의해 자동으로 정해지는 유저 식별자 (이하 “user-id”)와 익명 세션 식별자 (이하 “session-id”)가 들어있습니다. 세번째 쿠키는 당신이 “%1$s” 포럼의 글타래를 살펴볼 때 만들어지고, 당신의 경험치를 개선해 글타래를 읽었다는 것을 저장합니다.<br>
+	<br>
+	우리는 “%1$s” 포럼을 살펴보는 동안 phpBB software 외부의 쿠키를 만들 수도 있습니다. 하지만 이것은 phpBB software 로 만든 페이지를 커버하도록 고안된 이 도큐멘트의 범위 밖에 있습니다. 두번째 방법은 당신이 우리에게 보내주는 정보를 모으는 것입니다. 이것은 다음에 제한 없이 할 수 있습니다: 익명 유저가 올린 글 (이하 “익명 글”)과 “%1$s” 포럼에 가입한 것 (이하 “당신의 계정”), 가입한 후 로그인 해서 당신이 올린 글 (이하 “당신의 글”)<br>
+	<br>
+	당신의 계정은 적어도 유일하게 식별되는 이름 (이하 “당신의 아이디”)과 당신의 계정으로 로그인 하기 위한 개인 비밀번호 (이하 “당신의 비밀번호”), 유효한 e-메일 주소 (이하 “당신의 e-메일”)를 담고 있습니다. “%1$s” 포럼에 있는 당신의 계정에 대한 당신의 정보는 우리가 호스팅 하는 나라에서 적용 가능한 자료보호법률의 보호를 받습니다. 당신의 아이디와 당신의 비밀번호, 당신의 e-메일 이외에 “%1$s” 포럼 가입 때 요구되는 어떤 정보도 강제 또는 선택에 상관없이 여분입니다. 모든 경우에 있어 당신의 계정 정보를 공개하는 것을 선택할 수 있습니다. 게다가 당신은 당신의 계정 안에서 phpBB software 로부터 오는 자동으로 만들어진 e-메일의 옵트인/옵트아웃(opt-in or opt-out)을 선택할 수 있습니다.<br>
+	<br>
+	당신의 비밀번호는 보안을 위해 비밀번호화 (a one-way hash) 됩니다. 어쨌든 다른 웹사이트와 같은 비밀번호를 사용하지 않기를 권합니다. 당신의 비밀번호는 “%1$s” 포럼에 있는 당신의 계정에 접근할 수 있다는 것을 뜻합니다. 그러니 그것을 조심스럽게 관리하고 “%1$s” 포럼과 관련된 이 및 phpBB, 제 3자가 당신에게 정당하게 당신의 비밀번호를 물어보면 주의를 기울이세요. 당신이 당신의 계정에 대한 당신의 비밀번호를 잊었다면 phpBB software 가 제공하는 “비밀번호 찾기” 기능을 이용하세요. 이 절차는 당신이 보내준 당신의 아이디와 당신의 e-메일을 물어본 후 phpBB software 가 당신의 계정을 되살릴 새 비밀번호를 만들게 됩니다.<br>
 	',
 ));
 
@@ -92,6 +92,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> '이것은 당신이 이 게시판의 게시물에서 만든 첨부 파일의 목록입니다.',
 	'ATTACHMENTS_DELETED'			=> '첨부 파일이 삭제됨.',
 	'ATTACHMENT_DELETED'			=> '첨부 파일이 삭제됨.',
+	'ATTACHMENT_LOCKED'				=> '이 주제는 잠겨 있으므로 첨부 파일을 삭제할 수 없습니다.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> '"본인 기억하기"가 선택되어있는것의 로그인 키를 성공적으로 삭제했습니다.',
 	'AVATAR_CATEGORY'				=> '카테고리',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
@@ -117,12 +118,12 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> '생일',
 	'BIRTHDAY_EXPLAIN'			=> '그것은 당신의 생일을 설정하면 나이로 나열됩니다.',
 	'BOARD_DATE_FORMAT'			=> '나의 데이타 형식',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> '사용 된 구문의 PHP는 <a의 href="http://www.php.net/date"> date() </a>에 기능과 동일합니다.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> '사용 된 구문의 PHP는 <a href="https://secure.php.net/manual/function.date.php">date()</a>에 기능과 동일합니다.',
 	'BOARD_LANGUAGE'			=> '나의 언어',
 	'BOARD_STYLE'				=> '나의 게시판 스타일',
 	'BOARD_TIMEZONE'			=> '나의 타임존',
 	'BOOKMARKS'					=> '북마크',
-	'BOOKMARKS_EXPLAIN'			=> '당신은 나중에 참조 할 글타래를 즐겨 찾기에 추가 할 수 있습니다. 삭제하려는 북마크의 확인란을 선택한 다음 <EM>북마크 제거</EM> 버튼을 누릅니다.',
+	'BOOKMARKS_EXPLAIN'			=> '당신은 나중에 참조 할 글타래를 즐겨 찾기에 추가 할 수 있습니다. 삭제하려는 북마크의 확인란을 선택한 다음 <em>북마크 제거</em> 버튼을 누릅니다.',
 	'BOOKMARKS_DISABLED'		=> '북마크는 이 보드에 사용할 수 없습니다.',
 	'BOOKMARKS_REMOVED'			=> '북마크가 성공적으로 삭제되었습니다.',
 
@@ -180,7 +181,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> '강등 선택',
 	'DISABLE_CENSORS'			=> '단어 검열 사용',
 	'DISPLAY_GALLERY'			=> '갤러리 출력',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> '입력 한 이메일 도메인은 유효한 MX 레코드가 없습니다.',
 	'DOWNLOADS'					=> '다운로드',
 	'DRAFTS_DELETED'			=> '선택한 모든 초안이 성공적으로 삭제되었습니다.',
 	'DRAFTS_EXPLAIN'			=> '여기 저장된 초안을 보고, 편집하고 삭제할 수 있습니다.',
@@ -274,6 +274,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> '중요 공지',
 	'INVALID_USER_BIRTHDAY'			=> '입력 한 생일은 유효한 날짜가 아닙니다.',
 	'INVALID_CHARS_USERNAME'	=> '유저 이름이 금지 된 문자가 포함되어 있습니다.',
+	'INVALID_EMOJIS_USERNAME'	=> '사용자 이름에 금지 된 문자 (이모티콘)가 포함되어 있습니다.',
 	'INVALID_CHARS_NEW_PASSWORD'=> '비밀번호에 필요한 문자가 포함되어 있지 않습니다.',
 	'ITEMS_REQUIRED'			=> '*로 표시된 항목은 프로필 필드에 요구되고 꼭 작성해야합니다.',
 
@@ -304,6 +305,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> '메시지가 성공적으로 수정되었습니다.',
 	'MESSAGE_HISTORY'				=> '메시지 기록',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> '이 메시지는 작성자에 의해 삭제되었습니다.',
+	'MESSAGE_REPORTED_MESSAGE'		=> '신고 된 메시지',
 	'MESSAGE_SENT_ON'				=> '에',
 	'MESSAGE_STORED'				=> '이 메시지는 성공적으로 전송되었습니다.',
 	'MESSAGE_TO'					=> '에',
@@ -336,12 +338,16 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE'									=> '알림 타입',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> '당신이 북마크한 글타래에 누군가 댓글을 달았습니다.',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> '누군가가 당신이이끄는 그룹에 가입을 요청했습니다',
+	'NOTIFICATION_TYPE_FORUM'							=> '내가 가입 한 포럼의 주제에 누군가 답글을 남김',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> '게시물 또는 글타래에 필요한 승인',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> '당신의 글타래/게시물은 관리자에 의해 승인 또는 비승인됩니다.',
 	'NOTIFICATION_TYPE_PM'								=> '누군가 당신에게 개인 메시지를 보냅니다',
 	'NOTIFICATION_TYPE_POST'							=> '누군가 당신이 가입 되어 있는 글타래에 회신',
 	'NOTIFICATION_TYPE_QUOTE'							=> '누군가 게시물에 당신을 인용',
 	'NOTIFICATION_TYPE_REPORT'							=> '누군가 게시물을 신고',
+	'NOTIFICATION_TYPE_REPORT_CLOSED'					=> '게시물에 대한 신고가 중재자에 의해 마감되었습니다',
+	'NOTIFICATION_TYPE_REPORT_PM'						=> '누군가가 비공개 메시지를 신고합니다',
+	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> '비공개 메시지에 대한 신고가 중재자에 의해 마감되었습니다',
 	'NOTIFICATION_TYPE_TOPIC'							=> '누군가 당신이 가입 되어 있는 포럼에서 글타래를 생성',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> '새로 활성화가 필요한 유저 등록',
 
@@ -375,10 +381,10 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> '당신은 비공개 메시지를 편집 할 수있는 권한이 없습니다.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> '당신은 비공개 메시지를 전달 할 수있는 권한이 없습니다.',
 	'NO_AUTH_GROUP_MESSAGE'			=> '당신은 그룹에 개인 메시지를 보낼 수있는 권한이 없습니다.',
-	'NO_AUTH_PASSWORD_REMINDER'		=> '당신은 새 비밀번호를 요청할 수있는 권한이 없습니다.',
 	'NO_AUTH_PROFILEINFO'			=> '당신은 프로필 정보를 변경할 수있는 권한이 없습니다.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> '당신은 보류중인 비공개 메시지를 읽을 수있는 권한이 없습니다.',
 	'NO_AUTH_READ_MESSAGE'			=> '당신은 비공개 메시지를 읽을 수있는 권한이 없습니다.',
+	'NO_AUTH_PRINT_MESSAGE'			=> '개인 메시지를 인쇄 할 권한이 없습니다.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> '이 저자에 의해 제거 되었기 때문에이 메시지를 읽을 수 없습니다.',
 	'NO_AUTH_SEND_MESSAGE'			=> '당신은 비공개 메시지를 보낼 수있는 권한이 없습니다.',
 	'NO_AUTH_SIGNATURE'				=> '당신은 서명을 정의 할 수있는 권한이 없습니다.',
@@ -388,6 +394,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS_SELECTED'		=> '선택된 북마크들이 없습니다.',
 	'NO_EDIT_READ_MESSAGE'		=> '이미 읽혔기 때문에 개인 메시지를 편집 할 수 없습니다.',
 	'NO_EMAIL_USER'				=> '제출 된 이메일 / 유저 이름 정보를 찾을 수 없습니다.',
+	'EMAIL_NOT_UNIQUE'			=> '지정한 이메일은 여러 사용자가 사용합니다. 사용자 이름도 지정해야합니다.',
 	'NO_FOES'					=> '싫어하는 친구가 현재 정의되지않음',
 	'NO_FRIENDS'				=> '친구가 현재 정의되지않음',
 	'NO_FRIENDS_OFFLINE'		=> '오프라인 친구가 없음',
@@ -400,6 +407,7 @@ $lang = array_merge($lang, array(
 	'NO_OLDER_PM'				=> '오래된 메시지 없음.',
 	'NO_PASSWORD_SUPPLIED'		=> '당신은 암호없이 로그인 할 수 없습니다.',
 	'NO_RECIPIENT'				=> '받는 사람이 정의되지 않음.',
+	'NO_RESET_TOKEN'			=> '비밀번호 재설정 토큰을 제공하지 않았습니다.',
 	'NO_RULES_DEFINED'			=> '규칙이 정의되지 않음.',
 	'NO_SAVED_DRAFTS'			=> '초안은 저장되지 않습니다.',
 	'NO_TO_RECIPIENT'			=> '없음',
@@ -407,15 +415,16 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> '당신은 어떤 구독 글타래 또는 포럼을 선택하지 않았습니다.',
 	'NO_WATCHED_TOPICS'			=> '당신은 어떤 글타래에 가입되어 있지 않습니다.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> '비밀번호는 %1$s ~ %2$s 사이여야하며 대소문자가 포함되어야하며 숫자가 포함되어야합니다.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> '%1$s 와 %2$s 사이여야만 합니다.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> '비밀번호는 %1$s에서 %2$s 사이여야하며 대소문자를 포함해야합니다.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> '비밀번호는 %1$s ~ %2$s 사이여야하며, 대소문자를 포함하고 숫자를 포함해야하며 기호를 포함해야합니다.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> '비밀번호는 %1$s 이상이어야하며 대소 문자가 혼합 된 문자와 숫자를 포함해야합니다.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> '%1$s 이상이어야합니다.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> '비밀번호는 %1$s 이상이어야하며 대소 문자가 혼합 된 문자를 포함해야합니다.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> '비밀번호는 길이가 %1$s 이상이어야하며 대소 문자가 혼합 된 문자, 숫자 및 기호를 포함해야합니다.',
 	'PASSWORD'					=> '비밀번호',
 	'PASSWORD_ACTIVATED'		=> '새 암호가 활성화되었습니다.',
-	'PASSWORD_UPDATED'			=> '새로운 비밀번호가 등록 된 이메일 주소로 전송되었습니다.',
+	'PASSWORD_RESET'			=> '비밀번호가 성공적으로 재설정되었습니다.',
+	'PASSWORD_RESET_LINK_SENT'	=> '계정이있는 경우 등록 된 이메일 주소로 비밀번호 재설정 링크가 전송되었습니다. 이메일을받지 못했다면 차단되었거나 계정이 활성화되지 않았거나 짧은 시간 내에 여러 번의 비밀번호 재설정을 요청했거나 비밀번호 변경이 허용되지 않았기 때문일 수 있습니다. 이러한 이유가 적용되는 경우 관리자에게 문의하십시오. 또한 스팸 필터를 확인하십시오.',
 	'PERMISSIONS_RESTORED'		=> '성공적으로 원래의 권한을 복원.',
-	'PERMISSIONS_TRANSFERRED'	=> '성공적으로부터 권한을 <strong> % </strong>으로 전송했습니다, 지금 유저의 권한으로 게시판을 검색 할 수 있습니다 <br/>관리자 권한은 전송되지 않으니 유의하시기 바랍니다. 언제든지 설정에서 유저의 권한으로 되돌릴 수 있습니다.',
+	'PERMISSIONS_TRANSFERRED'	=> '성공적으로부터 권한을 <strong>%s</strong>으로 전송했습니다, 지금 유저의 권한으로 게시판을 검색 할 수 있습니다 <br>관리자 권한은 전송되지 않으니 유의하시기 바랍니다. 언제든지 설정에서 유저의 권한으로 되돌릴 수 있습니다.',
 	'PM_DISABLED'				=> '비공개 메시지는이 보드에 사용할 수 없습니다.',
 	'PM_FROM'					=> '부터',
 	'PM_FROM_REMOVED_AUTHOR'	=> '이 메시지는 더 이상 가입되어있지않은 유저에 의해 보내졌다.',
@@ -448,6 +457,7 @@ $lang = array_merge($lang, array(
 	'RECIPIENT'							=> '받는 사람',
 	'RECIPIENTS'						=> '받는 사람들',
 	'REGISTRATION'						=> '가입',
+	'OAUTH_REGISTRATION'				=> '외부 서비스를 사용한 등록',
 	'RELEASE_MESSAGES'					=> '%s모든 보류 메시지를 해제%s… 충분한 공간이 제공되어 한 경우에는 해당 폴더로 다시 정렬됩니다.',
 	'REMOVE_ADDRESS'					=> '주소 삭제',
 	'REMOVE_SELECTED_BOOKMARKS'			=> '선택된 북마크 삭제',
@@ -460,6 +470,8 @@ $lang = array_merge($lang, array(
 	'REPLIED_MESSAGE'					=> '메시지에 댓글달았습니다',
 	'REPLY_TO_ALL'						=> '보낸 사람과 모든받는 사람에게 답장.',
 	'REPORT_PM'							=> '개인 메시지 신고',
+	'RESET_PASSWORD'					=> '암호를 재설정',
+	'RESET_TOKEN_EXPIRED_OR_INVALID'	=> '제공 한 비밀번호 재설정 토큰이 유효하지 않거나 만료되었습니다.',
 	'RESIGN_SELECTED'					=> '사임 선택',
 	'RETURN_FOLDER'						=> '%1$s이전 폴더로 돌아 가기%2$s',
 	'RETURN_UCP'						=> '%s유저 컨트롤 패널로 돌아가기%s',
@@ -475,7 +487,6 @@ $lang = array_merge($lang, array(
 
 	'SAME_PASSWORD_ERROR'		=> '입력 한 새 암호는 현재 비밀번호와 동일합니다.',
 	'SEARCH_YOUR_POSTS'			=> '당신의 글 보기',
-	'SEND_PASSWORD'				=> '비밀번호 보내기',
 	'SENT_AT'					=> '보내기',			// Used before dates in private messages
 	'SHOW_EMAIL'				=> '유저 이메일로 저에게 연락 할 수 있습니다',
 	'SIGNATURE_EXPLAIN'			=> '이것은 당신이 만드는 게시물에 추가 할 수있는 텍스트의 블록입니다. %d 개의 문자 제한이 있습니다.',
@@ -559,7 +570,6 @@ $lang = array_merge($lang, array(
 
 	'UCP_PASSWORD_RESET_DISABLED'	=> '암호 재설정 기능을 사용할 수 없습니다. 당신이 당신의 계정에 액세스하는 데 도움이 필요한 경우, %s 게시판 관리자 %s 에게 문의하시기 바랍니다.',
 	'UCP_REGISTER_DISABLE'			=> '새 계정을 만들 수 없습니다.',
-	'UCP_REMIND'					=> '비밀번호 보내기',
 	'UCP_RESEND'					=> '활성화 이메일 보내기',
 	'UCP_WELCOME'					=> '유저 컨트롤 패널에 오신 것을 환영합니다. 여기에서 모니터링,보기 및 프로필, 환경 설정, 가입 포럼 및 글타래를 업데이트 할 수 있습니다. (허용 된 경우) 당신은 또한 다른 사용자에게 메시지를 보낼 수 있습니다. 계속하기 전에 공지 사항을 읽어 확인하십시오.',
 	'UCP_ZEBRA'						=> '친구 &amp; 싫어하는 친구',
@@ -605,7 +615,7 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> '표시 후 순서 방향',
 	'VIEW_POSTS_KEY'			=> '에 의해 주문된 글 표시',
 
-	'WATCHED_EXPLAIN'			=> '다음은 가입 포럼과 주제에 대한 목록입니다. 당신은 새 게시물의 통보를받을 것입니다. 포럼 또는 주제를 구독 해제하려면 <EM> 마크 삭제 </EM> 버튼을 누릅니다.',
+	'WATCHED_EXPLAIN'			=> '다음은 가입 포럼과 주제에 대한 목록입니다. 당신은 새 게시물의 통보를받을 것입니다. 포럼 또는 주제를 구독 해제하려면 <em>마크 삭제</em> 버튼을 누릅니다.',
 	'WATCHED_FORUMS'			=> '보고있던 포럼',
 	'WATCHED_TOPICS'			=> '보고있던 글타래',
 	'WRONG_ACTIVATION'			=> '당신 공급 활성화 키는 데이터베이스에 일치하지 않습니다.',

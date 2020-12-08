@@ -1,8 +1,7 @@
 <?php
 /**
 *
-* This file is part of the American English Language Pack
-* for the phpBB Forum Software.
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -50,6 +49,8 @@ $lang = array_merge($lang, array(
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'An indexing process has been started. In order to access the search index page you will have to complete it or cancel it.',
 	'CREATE_INDEX'							=> 'Create index',
 
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Default number of returned characters',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'The default number of characters that will be returned while searching. A value of 0 will return the entire post.',
 	'DELETE_INDEX'							=> 'Delete index',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Deleting the index in progress',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'The search backend is currently cleaning its index. This can take a few minutes.',
@@ -95,7 +96,7 @@ $lang = array_merge($lang, array(
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'The search backend is currently indexing all posts on the board. This can take from a few minutes to a few hours depending on your board’s size.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Search page system load limit',
-	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'If the 1 minute system load exceeds this value the search page will go offline, 1.0 equals ~100% utilization of one processor. This only functions on UNIX based servers.',
+	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'If the 1 minute system load exceeds this value the search page will go offline, 1.0 equals ~100% utilisation of one processor. This only functions on UNIX based servers.',
 
 	'MAX_SEARCH_CHARS'						=> 'Max characters indexed by search',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Words with no more than this many characters will be indexed for searching.',
@@ -117,7 +118,10 @@ $lang = array_merge($lang, array(
 		2	=> 'The current rate of indexing is approximately %1$.1f posts per second.<br />Indexing in progress…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'All posts up to post id %2$d have been removed from the search index.<br />Deleting in progress…',
+		2	=> 'All posts up to post id %2$d have been removed from the search index, of which %1$d posts were within this step.<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'The current rate of deleting is approximately %1$.1f posts per second.<br />Deleting in progress…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Successfully indexed all posts in the board database.',
 	'SEARCH_INDEX_REMOVED'					=> 'Successfully deleted the search index for this backend.',
