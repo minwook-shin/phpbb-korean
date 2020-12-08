@@ -37,6 +37,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'APCu cache has to be purged through the Administration Control Panel.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> '구성 옵션이 너무 자주 변경되어 효율적으로 캐시되는 경우 이 옵션을 설정하십시오.',
 	'CLI_CONFIG_CURRENT'				=> '현재 구성 값, 0과 1을 사용하여 부울 값 지정',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> '%s 설정을 성공적으로 삭제했습니다.',
@@ -59,6 +61,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> '자세한 확장기능을 제거합니다.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> '자세한 확장기능을 활성합니다.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> '의존하지 않는 마이그레이션을 찾습니다.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Repairs the tree structure of the forums and modules.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> '구성 옵션의 값을 가져옵니다.',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> '구성 옵션의 정수 값을 증가시킵니다.',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> '데이터베이스와 파일 시스템의 모든 확장을 나열합니다.',
@@ -79,8 +82,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> '한번에 처리 할 레코드의 대략적인 수',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> '마지막 실행이 중단 된 부분 다시 구문 분석 시작',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> '사용자 테이블의 user_email_hash 열을 다시 계산합니다.',
-
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'old가 현재 값과 일치하는 경우에만 구성 옵션의 값을 설정합니다.',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> '옵션의 값 구성을 설정',
 
@@ -92,6 +93,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> '검사 할 확장 프로그램의 이름 (모든 확장 프로그램을 검사 할 경우)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> '캐시로 check 명령을 실행하십시오.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> '명령을 실행하여 안정 버전이나 불안정 버전만 선택하십시오.',
+
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Updates outdated password hashes to be hashed with bcrypt.',
 
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" 는 유효한 안정성이 아닙니다.',
 
@@ -112,19 +115,24 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> '확장 프로그램 %s 을 사용 중지 할 수 없습니다',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '확장 프로그램 %s 이 사용 중지되었습니다',
+	'CLI_EXTENSION_DISABLED'			=> 'Extension %s is not enabled',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> '확장 프로그램 %s 을 활성화하지 못했습니다',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '확장프로그램 %s 이 성공적으로 활성화되었습니다',
+	'CLI_EXTENSION_ENABLED'				=> 'Extension %s is already enabled',
+	'CLI_EXTENSION_NOT_EXIST'			=> 'Extension %s does not exist',
 	'CLI_EXTENSION_NAME'				=> '확장프로그램의 이름',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> '확장프로그램 %s 을 삭제할 수 없습니다',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> '확장프로그램 %s 을 성공적으로 삭제했습니다',
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> '확장프로그램 %s 을 업데이트 할 수 없습니다',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> '확장프로그램 %s 을 성공적으로 업데이트 했습니다',
 	'CLI_EXTENSION_NOT_FOUND'			=> '확장프로그램을 찾을 수 없음.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'Extension %s is not enableable.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> '유효',
 	'CLI_EXTENSIONS_DISABLED'			=> '비활성화됨',
 	'CLI_EXTENSIONS_ENABLED'			=> '활성화됨',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> '모든 이메일 해시를 다시 계산했습니다.',
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Successfully repaired the tree structure of the forums and modules.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Successfully updated outdated password hashes to bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> '네임 스페이스를 포함한 마이그레이션 이름 (문제를 방지하기 위해 백 슬래시 대신 슬래시를 사용).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> '사용 가능한 마이그레이션',

@@ -2,7 +2,7 @@ Subject: 포럼 게시물 알림 - "{FORUM_NAME}"
 
 {USERNAME} 님, 안녕하세요.
 
-{{SITENAME} "에서 포럼"{FORUM_NAME} "을 (를)보고있어이 알림을 받고 있습니다. 이 포럼은 귀하의 마지막 방문 이후 {AUTHOR_NAME} <! - ENDIF -> 님이 "{TOPIC_TITLE}"<! - IF AUTHOR_NAME! = ''-> 주제에 대한 새로운 답변을 받았습니다. 다음 링크를 사용하여 마지막 읽지 않은 회신을 볼 수 있습니다. 주제를 방문 할 때까지 더 이상 알림이 전송되지 않습니다.
+{SITENAME} "에서 포럼"{FORUM_NAME} "을 (를)보고있어이 알림을 받고 있습니다. 이 포럼은 귀하의 마지막 방문<!-- IF AUTHOR_NAME != '' --> 으로 {AUTHOR_NAME}<!-- ENDIF --> 님이 "{TOPIC_TITLE}" 주제에 대한 새로운 답변을 받았습니다. 다음 링크를 사용하여 마지막 읽지 않은 회신을 볼 수 있습니다. 주제를 방문 할 때까지 더 이상 알림이 전송되지 않습니다.
 
 {U_NEWEST_POST}
 

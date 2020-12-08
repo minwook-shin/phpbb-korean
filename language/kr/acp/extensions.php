@@ -1,8 +1,7 @@
 <?php
 /**
 *
-* This file is part of the American English Language Pack
-* for the phpBB Forum Software.
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -106,7 +105,7 @@ $lang = array_merge($lang, array(
 	'HOMEPAGE'				=> 'Homepage',
 	'PATH'					=> 'File Path',
 	'TIME'					=> 'Release Time',
-	'LICENSE'				=> 'License',
+	'LICENSE'				=> 'Licence',
 
 	'REQUIREMENTS'			=> 'Requirements',
 	'PHPBB_VERSION'			=> 'phpBB Version',

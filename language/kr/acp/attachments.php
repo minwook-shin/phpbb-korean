@@ -1,8 +1,7 @@
 <?php
 /**
 *
-* This file is part of the American English Language Pack
-* for the phpBB Forum Software.
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -69,7 +68,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximum drive space available for attachments for the whole board, with 0 being unlimited.',
 	'ATTACH_TO_POST'					=> 'Attach file to post',
 
-	'CAT_FLASH_FILES'			=> 'Flash files',
 	'CAT_IMAGES'				=> 'Images',
 	'CHECK_CONTENT'				=> 'Check attachment files',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
@@ -100,27 +98,28 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'Archives',
 	'EXT_GROUP_DOCUMENTS'			=> 'Documents',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Downloadable Files',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash Files',
 	'EXT_GROUP_IMAGES'				=> 'Images',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Plain Text',
 
 	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
-	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronized. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronize them.',
+	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
 
 	'GO_TO_EXTENSIONS'		=> 'Go to extension management screen',
 	'GROUP_NAME'			=> 'Group name',
 
 	'IMAGE_LINK_SIZE'			=> 'Image link dimensions',
-	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Display image attachment as an inline text link if image is larger than this. To disable this behavior, set the values to 0px by 0px.',
-	'IMAGICK_PATH'				=> 'ImageMagick path',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Full path to the ImageMagick convert application, e.g. <samp>/usr/bin/</samp>.',
+	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Display image attachment as an inline text link if image is larger than this. To disable this behaviour, set the values to 0px by 0px.',
+	'IMAGE_QUALITY'				=> 'Quality of uploaded image attachments (JPEG only)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Specify value between 50% (smaller file size) and 90% (higher quality). Quality higher than 90% increases filesize and is disabled. Setting only applies if maximum image dimensions are set to a value other than 0px by 0px.',
+	'IMAGE_STRIP_METADATA'		=> 'Strip image metadata (JPEG only)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Strip Exif metadata, e.g. author name, GPS coordinates and camera details. Setting only applies if maximum image dimensions are set to a value other than 0px by 0px.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximum number of attachments per post',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximum number of attachments per private message',
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maximum file size',
 	'MAX_IMAGE_SIZE'				=> 'Maximum image dimensions',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Maximum size of image attachments. Set both values to 0px by 0px to disable dimension checking.',
-	'MAX_THUMB_WIDTH'				=> 'Maximum thumbnail width in pixel',
+	'MAX_THUMB_WIDTH'				=> 'Maximum thumbnail width/height in pixel',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'A generated thumbnail will not exceed the width set here.',
 	'MIN_THUMB_FILESIZE'			=> 'Minimum thumbnail file size',
 	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Do not create a thumbnail for images smaller than this.',
@@ -132,11 +131,12 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'Not assigned',
 	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
 	'NO_EXT_GROUP'				=> 'None',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'There are no <a href="%s">allowed extension groups</a> for private messages.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'There are no <a href="%s">allowed extension groups</a> for posts.',
 	'NO_EXT_GROUP_NAME'			=> 'No group name entered',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'No extension group specified.',
 	'NO_FILE_CAT'				=> 'None',
 	'NO_IMAGE'					=> 'No image',
-	'NO_THUMBNAIL_SUPPORT'		=> 'Thumbnail support has been disabled. For proper functionality either the GD extension need to be available or ImageMagick being installed. Both were not found.',
 	'NO_UPLOAD_DIR'				=> 'The upload directory you specified does not exist.',
 	'NO_WRITE_UPLOAD'			=> 'The upload directory you specified cannot be written to. Please alter the permissions to allow the webserver to write to it.',
 
@@ -146,11 +146,10 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'			=> 'Remove or un-exclude <em>allowed</em> IPs/hostnames',
 	'REMOVE_DISALLOWED_IPS'			=> 'Remove or un-exclude <em>disallowed</em> IPs/hostnames',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronize file statistics?',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?',
 
-	'SEARCH_IMAGICK'				=> 'Search for ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Allow/Deny list',
-	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Change the default behavior when secure downloads are enabled of the Allow/Deny list to that of a <strong>whitelist</strong> (Allow) or a <strong>blacklist</strong> (Deny).',
+	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Change the default behaviour when secure downloads are enabled of the Allow/Deny list to that of a <strong>whitelist</strong> (Allow) or a <strong>blacklist</strong> (Deny).',
 	'SECURE_DOWNLOADS'				=> 'Enable secure downloads',
 	'SECURE_DOWNLOADS_EXPLAIN'		=> 'With this option enabled, downloads are limited to IP’s/hostnames you define.',
 	'SECURE_DOWNLOAD_NOTICE'		=> 'Secure Downloads are not enabled. The settings below will be applied after enabling secure downloads.',
